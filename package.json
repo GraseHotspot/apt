@@ -1,0 +1,17 @@
+{
+  "name": "aptly.incoming",
+  "version": "0.0.0",
+  "description": "",
+  "main": "download.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "extract-zip": "^1.6.0",
+    "md5": "^2.2.1",
+    "node-status": "^1.0.0",
+    "request": "^2.79.0"
+  }
+}
