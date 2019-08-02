@@ -1,9 +1,12 @@
 #!/bin/bash
 # Adding source files
-aptly repo add grase-jessie artifacts/artifacts/*jessie.dsc
-aptly repo add grase-trusty artifacts/artifacts/*trusty.dsc
-aptly repo add grase-xenial artifacts/artifacts/*xenial.dsc
+#aptly repo add grase-jessie artifacts/artifacts/*jessie.dsc
+#aptly repo add grase-trusty artifacts/artifacts/*trusty.dsc
+#aptly repo add grase-xenial artifacts/artifacts/*xenial.dsc
+aptly repo add grase-bionic artifacts/artifacts/*bionic.dsc
+
 # Adding binary files
-aptly repo add grase-jessie artifacts/artifacts/*jessie_*.deb
-aptly repo add grase-trusty artifacts/artifacts/*trusty_*.deb
-aptly repo add grase-xenial artifacts/artifacts/*xenial_*.deb
+#aptly repo add grase-jessie artifacts/artifacts/*jessie_*.deb
+#aptly repo add grase-trusty artifacts/artifacts/*trusty_*.deb
+#aptly repo add grase-xenial artifacts/artifacts/*xenial_*.deb
+aptly repo add grase-xenial artifacts/artifacts/*bionic_*.deb

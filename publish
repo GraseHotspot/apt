@@ -2,3 +2,6 @@
 #aptly publish repo --gpg-key=C830ED66 --architectures="amd64,armhf,i386,source" grase-xenial nightly
 aptly publish repo --gpg-key=C830ED66 --architectures="amd64,armhf,i386,armel,source" grase-jessie nightly
 aptly publish repo --gpg-key=C830ED66 --architectures="amd64,armhf,i386,source" grase-trusty nightly
+aptly publish repo --gpg-key=C830ED66 --architectures="amd64,armhf,i386,source" grase-bionic dev
+aptly publish repo --gpg-key=C830ED66 --architectures="amd64,armhf,i386,source" --distribution="bionic" grase-bionic dev
+# TODO rsync

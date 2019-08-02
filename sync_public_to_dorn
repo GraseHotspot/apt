@@ -1,1 +1,0 @@
-rsync -avzP ~/.aptly/public/ grase@dorn.purewhite.id.au:/home/grase/domains/apt.grasehotspot.org/public_html/
