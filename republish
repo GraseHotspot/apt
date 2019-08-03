@@ -1,3 +1,4 @@
 #aptly publish update --gpg-key=C830ED66 xenial nightly
-aptly publish update --gpg-key=C830ED66 jessie nightly
-aptly publish update --gpg-key=C830ED66 trusty nightly
+#aptly publish update --gpg-key=C830ED66 jessie nightly
+#aptly publish update --gpg-key=C830ED66 trusty nightly
+aptly publish update --gpg-key=C830ED66 bionic dev
