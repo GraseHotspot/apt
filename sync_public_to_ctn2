@@ -1,1 +1,1 @@
-rsync -avzP ~/.aptly/public/ tim@ctn2.whiteitsolutions.com.au:/containers/grasehotspot_apt/www
+rsync -avzP --delete ~/.aptly/public/ tim@ctn2.whiteitsolutions.com.au:/containers/grasehotspot_apt/www
