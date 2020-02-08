@@ -1,0 +1,112 @@
+Package: coova-chilli
+Binary: coova-chilli
+Version: 1.4.16.g484b3b5~jessie
+Maintainer: David Bird (Coova Technologies) <support@coova.com>
+Build-Depends: debhelper (>= 7), libc6-dev | libc6-dev-amd64, gengetopt, libtool, automake, libssl-dev, libjson0-dev
+Architecture: any
+Standards-Version: 3.8.1
+Format: 1.0
+Directory: pool/main/c/coova-chilli
+Files:
+ 999aa163c534fb8f6c1df20b736af48c 700 coova-chilli_1.4.16.g484b3b5~jessie.dsc
+ 96a354061502c74e84eca72816bfbd9e 4489296 coova-chilli_1.4.16.g484b3b5~jessie.tar.gz
+Checksums-Sha1:
+ 7a9aa64e6048d9386f567f577a7c16aac06f13ca 700 coova-chilli_1.4.16.g484b3b5~jessie.dsc
+ 7c5e858c06a799a823960152d2820d56ff199ee0 4489296 coova-chilli_1.4.16.g484b3b5~jessie.tar.gz
+Package-List:
+ coova-chilli deb net optional arch=any
+Checksums-Sha256:
+ b77c4e373708b6ae8e7b9110c6031e69e09844fbea068b77e403fcf50a8f7962 700 coova-chilli_1.4.16.g484b3b5~jessie.dsc
+ c27c0516468465438748fe43c39f0eadaee17b2e49d31f196fb2c8641a3a710e 4489296 coova-chilli_1.4.16.g484b3b5~jessie.tar.gz
+
+Package: coova-chilli
+Binary: coova-chilli
+Version: 1.4.0.6.g4f8f821~jessie
+Maintainer: David Bird (Coova Technologies) <support@coova.com>
+Build-Depends: debhelper (>= 7), libc6-dev | libc6-dev-amd64, gengetopt, libtool, automake, libssl-dev, libjson0-dev
+Architecture: any
+Standards-Version: 3.8.1
+Format: 1.0
+Directory: pool/main/c/coova-chilli
+Files:
+ 1afcad2909651298eb3372e0d306892d 704 coova-chilli_1.4.0.6.g4f8f821~jessie.dsc
+ b9d8cac18d128aa567b18af39ce7f4ab 4491736 coova-chilli_1.4.0.6.g4f8f821~jessie.tar.gz
+Checksums-Sha256:
+ f1713fa42157f5c6748fd4ca03dddecfce4efe7a25fedfebd1d38b8c4f3a61ab 704 coova-chilli_1.4.0.6.g4f8f821~jessie.dsc
+ 46cd414ad62da6d3afc4ae10fc1e3b1329cce532e8a8bdfa4dbc334a6bc4ee13 4491736 coova-chilli_1.4.0.6.g4f8f821~jessie.tar.gz
+Checksums-Sha1:
+ 0f24879e7cc7566f3847bb3c767932fc4c0bc80c 704 coova-chilli_1.4.0.6.g4f8f821~jessie.dsc
+ a6d7545ea9167fc35c1a341c4a668e94670d25e0 4491736 coova-chilli_1.4.0.6.g4f8f821~jessie.tar.gz
+Package-List:
+ coova-chilli deb net optional arch=any
+Checksums-Sha512:
+ c97b36eeb504a37a046dc3748c8c8f16bd663d8823d16a38a04d28019e4b4e9223ee499649f29faf4cc49f63a1ecca5175390cb2d300fa0a66269bbe01adc366 704 coova-chilli_1.4.0.6.g4f8f821~jessie.dsc
+
+Package: coova-chilli
+Binary: coova-chilli
+Version: 1.4.0.4.g484b3b5~jessie
+Maintainer: David Bird (Coova Technologies) <support@coova.com>
+Build-Depends: debhelper (>= 7), libc6-dev | libc6-dev-amd64, gengetopt, libtool, automake, libssl-dev, libjson0-dev
+Architecture: any
+Standards-Version: 3.8.1
+Format: 1.0
+Directory: pool/main/c/coova-chilli
+Files:
+ 2bd7fae550c0cdd37bd1a29151ba3f7f 704 coova-chilli_1.4.0.4.g484b3b5~jessie.dsc
+ 996ec920297f35eb4e1468696d893915 4489624 coova-chilli_1.4.0.4.g484b3b5~jessie.tar.gz
+Package-List:
+ coova-chilli deb net optional arch=any
+Checksums-Sha1:
+ 85dec2f583d6fc4432a21c2e2950f569c298459f 704 coova-chilli_1.4.0.4.g484b3b5~jessie.dsc
+ 88ac31eb6f22d27f485c04015f25bc7621b191d3 4489624 coova-chilli_1.4.0.4.g484b3b5~jessie.tar.gz
+Checksums-Sha256:
+ 90fc2afa5a138718490751987b4d9dd8eaba393277110490c12fe122861749f9 704 coova-chilli_1.4.0.4.g484b3b5~jessie.dsc
+ 752e5449930fb98715f679b6ab3eab72ca0aab41418fdb25f98517e6e3002936 4489624 coova-chilli_1.4.0.4.g484b3b5~jessie.tar.gz
+
+Package: grase-conf-apache2
+Binary: grase-conf-apache2
+Version: 1.1.30.gcea620c~jessie
+Maintainer: Tim White <tim@grasehotspot.org>
+Build-Depends-Indep: cdbs, debhelper, dh-buildinfo, config-package-dev (>= 5.0~)
+Architecture: all
+Standards-Version: 3.9.1
+Format: 1.0
+Directory: pool/main/g/grase-conf-apache2
+Files:
+ 90ca5b9e8cb58fbc4ce9507e7adf1732 710 grase-conf-apache2_1.1.30.gcea620c~jessie.dsc
+ 1b2df3303018a603b3f41c973081a99f 23142 grase-conf-apache2_1.1.30.gcea620c~jessie.tar.gz
+Checksums-Sha256:
+ 0667a923797cb29b6bf709ea9bda03be182acec6e79c7aba56e1e9965fff8284 710 grase-conf-apache2_1.1.30.gcea620c~jessie.dsc
+ 48cdbdb3488acfc92d988649127c7bae0cc15b5d3c595950cc3cfd8719a33169 23142 grase-conf-apache2_1.1.30.gcea620c~jessie.tar.gz
+Package-List:
+ grase-conf-apache2 deb config extra arch=all
+Checksums-Sha1:
+ 07fdf02987385609876b1d1b6e87d716c54625ca 710 grase-conf-apache2_1.1.30.gcea620c~jessie.dsc
+ 3d026ca5b3528af2b3ad65410b12cd60904810a9 23142 grase-conf-apache2_1.1.30.gcea620c~jessie.tar.gz
+Homepage: http://grasehotspot.org/
+
+Package: grase-www-portal
+Binary: grase-www-portal, grase-www-portal-ext-libs
+Version: 3.8.0.51.g084d455~jessie
+Maintainer: Tim White <tim@grasehotspot.org>
+Build-Depends: cdbs, debhelper, dh-buildinfo, config-package-dev (>= 5.0~)
+Architecture: all
+Standards-Version: 3.9.1
+Format: 3.0 (native)
+Directory: pool/main/g/grase-www-portal
+Files:
+ 9bc90b9f2ba170f74c33f3cfebe5a7c3 786 grase-www-portal_3.8.0.51.g084d455~jessie.dsc
+ 67e198477764853623237f34ef92d939 522684 grase-www-portal_3.8.0.51.g084d455~jessie.tar.xz
+Checksums-Sha1:
+ 847a8b9c87920aa1a1ac6d2033b21bad3acd626c 786 grase-www-portal_3.8.0.51.g084d455~jessie.dsc
+ 31abd015dca3df4f9a4692e362d1ed98605be38a 522684 grase-www-portal_3.8.0.51.g084d455~jessie.tar.xz
+Package-List:
+ grase-www-portal deb net extra arch=all
+ grase-www-portal-ext-libs deb net extra arch=all
+Checksums-Sha512:
+ 5770810cdd49b6b13bcc603db3177f893a981b991d5869e58737dd0912f74147d7430ecd88e7512ab3e8c91d54f1bfaf0b982bd66e636f3b6c6ea67b8e0e98c7 786 grase-www-portal_3.8.0.51.g084d455~jessie.dsc
+Checksums-Sha256:
+ 908d4447972dcf49f40c7cfb48587f2a0917c1e5720460685bc595848c86d2cf 786 grase-www-portal_3.8.0.51.g084d455~jessie.dsc
+ 0fefd750de91e913075b3e85334810abc10abb35a1e934bd29f5297180f68a0c 522684 grase-www-portal_3.8.0.51.g084d455~jessie.tar.xz
+Homepage: http://grasehotspot.org/
+

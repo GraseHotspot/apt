@@ -1,0 +1,5 @@
+Origin: nightly trusty
+Label: nightly trusty
+Archive: trusty
+Architecture: i386
+Component: main

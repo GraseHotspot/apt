@@ -1,0 +1,162 @@
+Package: coova-chilli
+Priority: optional
+Section: net
+Installed-Size: 2188
+Maintainer: David Bird (Coova Technologies) <support@coova.com>
+Architecture: i386
+Version: 1.4.16.g484b3b5~jessie
+Replaces: chillispot
+Provides: chillispot
+Depends: iptables
+Conflicts: chillispot
+Filename: pool/main/c/coova-chilli/coova-chilli_1.4.16.g484b3b5~jessie_i386.deb
+Size: 429166
+MD5sum: 7fc2437dfa49b4818b862e2617622079
+SHA1: f0d87cffb5b2fc07ec3adb577e76492e0935ec54
+SHA256: 8778a7b03f209dc702c8342bdded54d11a00a9c21d221bcf7257814f21db9940
+Description: Wireless LAN Access Point Controller (captive portal).
+ Coova-Chilli is an open source captive portal or wireless LAN access point
+ controller, forked from chillispot. It supports web based login which is
+ today's standard for public HotSpots and it supports Wireless Protected Access (WPA) which
+ is the standard of the future. Authentication, Authorization and Accounting (AAA)
+ is handled by your favorite radius server. Read more at http://coova.github.io/
+
+Package: coova-chilli
+Priority: optional
+Section: net
+Installed-Size: 2188
+Maintainer: David Bird (Coova Technologies) <support@coova.com>
+Architecture: i386
+Version: 1.4.0.6.g4f8f821~jessie
+Replaces: chillispot
+Provides: chillispot
+Depends: iptables
+Conflicts: chillispot
+Filename: pool/main/c/coova-chilli/coova-chilli_1.4.0.6.g4f8f821~jessie_i386.deb
+Size: 429188
+MD5sum: b3e2dec20a5dd79ba8957b70b42c2180
+SHA1: 1bd7da16d4488900398b92c95eac0aa1636eda03
+SHA256: d4cd7290ae176dbbbdd2a7c6ff0a2c26075c41a5a3b294100bb67591f37fc276
+SHA512: b433a674dfac00ec52f24226d5c31db66370e4c28bd28762967e6fbb0a537db00d91b5a9f70201f9be2805d51870589b2bf11ec68cdcee86ba7162ee6a3bee8a
+Description: Wireless LAN Access Point Controller (captive portal).
+ Coova-Chilli is an open source captive portal or wireless LAN access point
+ controller, forked from chillispot. It supports web based login which is
+ today's standard for public HotSpots and it supports Wireless Protected Access (WPA) which
+ is the standard of the future. Authentication, Authorization and Accounting (AAA)
+ is handled by your favorite radius server. Read more at http://coova.github.io/
+
+Package: coova-chilli
+Priority: optional
+Section: net
+Installed-Size: 2188
+Maintainer: David Bird (Coova Technologies) <support@coova.com>
+Architecture: i386
+Version: 1.4.0.4.g484b3b5~jessie
+Replaces: chillispot
+Provides: chillispot
+Depends: iptables
+Conflicts: chillispot
+Filename: pool/main/c/coova-chilli/coova-chilli_1.4.0.4.g484b3b5~jessie_i386.deb
+Size: 429304
+MD5sum: 2a3f87183b6e98636efbdea410b5e084
+SHA1: bc38614345f472fca942daeb129bd7b41586ff7d
+SHA256: 075ea8640da7ecd3d0479a55d29dba2cbf5234594d8de09b80a52e5c77e4fb26
+Description: Wireless LAN Access Point Controller (captive portal).
+ Coova-Chilli is an open source captive portal or wireless LAN access point
+ controller, forked from chillispot. It supports web based login which is
+ today's standard for public HotSpots and it supports Wireless Protected Access (WPA) which
+ is the standard of the future. Authentication, Authorization and Accounting (AAA)
+ is handled by your favorite radius server. Read more at http://coova.github.io/
+
+Package: grase-conf-dnsmasq
+Priority: extra
+Section: config
+Installed-Size: 47
+Maintainer: Tim White <tim@hotspot.purewhite.id.au>
+Architecture: all
+Version: 1.6.1.g26abb9f~jessie
+Depends: dnsmasq (>= 2.51), php5-cli
+Filename: pool/main/g/grase-conf-dnsmasq/grase-conf-dnsmasq_1.6.1.g26abb9f~jessie_all.deb
+Size: 6308
+MD5sum: 22c5ae98ecbc6562fd4e4390cdace571
+SHA1: 3dca72808da7b1c5f2e3ec34ea496a8e2e153d3c
+SHA256: 8fa82d5e2b63063e6c34c12dc2aa80e2f2012caa1af59fa426d62afb12772557
+SHA512: 467af54d6eb44a02d46cde0d1b62d4b3410f6a2c79689a999fb4ae287a01000737c190161e7956c39a13e659ae21b4fda0785acbca545e36575929d85fc13788
+Description: Config files for Dnsmasq for the GRASE Hotspot System
+ The GRASE Hotspot System binds together CoovaChilli, Freeradius, MySQL, and
+ other systems as well as providing an administrative frontend to managing
+ users and other hotspot related tasks.
+ .
+ This package provides Configuration files for the DNS subsystem
+Homepage: http://grasehotspot.org/
+
+Package: grase-conf-freeradius
+Priority: extra
+Section: config
+Installed-Size: 200
+Maintainer: Tim White <tim@grasehotspot.org>
+Architecture: all
+Version: 1.9.4.22.gdd049f3~jessie
+Provides: diverts-etc++freeradius++dictionary, diverts-etc++freeradius++sites-available++default, diverts-etc++freeradius++sql++mysql++counter.conf, diverts-etc++freeradius++sql.conf
+Depends: dbconfig-common, debconf (>= 0.5) | debconf-2.0, libconfig-simple-perl, libxml-simple-perl, libtime-modules-perl
+Pre-Depends: freeradius, freeradius-mysql, coova-chilli (>= 1.4.0), virtual-mysql-client, virtual-mysql-server
+Conflicts: diverts-etc++freeradius++dictionary, diverts-etc++freeradius++sites-available++default, diverts-etc++freeradius++sql++mysql++counter.conf, diverts-etc++freeradius++sql.conf
+Filename: pool/main/g/grase-conf-freeradius/grase-conf-freeradius_1.9.4.22.gdd049f3~jessie_all.deb
+Size: 29314
+MD5sum: 2172a4709d9b0ce8ae260bfa0913cf24
+SHA1: f750b1fe9c35405f512949995878778a96cdfad5
+SHA256: 2e9a6f4731e4157fb453d462e805bea139e635a6f6d5623132b62c21f9cf55d4
+SHA512: 9c718efb6cf3ed746aa17cdd9697e87d07021bb143d29486dcda39ab87319c35ab8a7942bd3034ad72b5c9564c06763304a56a4619699643ed41d82871e5f073
+Description: Config files for FreeRADIUS for the GRASE Hotspot System
+ The GRASE Hotspot System binds together CoovaChilli, FreeRADIUS, MySQL,
+ and other systems as well as providing an administrative frontend to managing
+ users and other hotspot related tasks.
+ .
+ This package provides Configuration files for the FreeRADIUS subsystem
+Homepage: http://grasehotspot.org/
+
+Package: grase-conf-squid3
+Priority: extra
+Section: config
+Installed-Size: 322
+Maintainer: Tim White <tim@grasehotspot.org>
+Architecture: all
+Version: 1.6.24.gfcc2e33~jessie
+Replaces: grase-conf-squid3-3.1, grase-conf-squid3-3.3
+Depends: squid3 (>= 3.4), squid3 (<< 3.5)
+Conflicts: grase-conf-squid3-3.1, grase-conf-squid3-3.3
+Filename: pool/main/g/grase-conf-squid3/grase-conf-squid3_1.6.24.gfcc2e33~jessie_all.deb
+Size: 76032
+MD5sum: e4ba986261a7ba975e3c6ed207cecb65
+SHA1: a6810aad88edbcf8de1962e781d14be0e2535687
+SHA256: 31e147353bd74d935a19606894b8fc0eed40bbce56e907b7ca3c2d6e1e7f40c9
+Description: Config files for Squid3 for the GRASE Hotspot System
+ The GRASE Hotspot System binds together CoovaChilli, Freeradius, MySQL, and
+ other systems as well as providing an administrative frontend to managing
+ users and other hotspot related tasks.
+ .
+ This package provides Configuration files for the Squid3 subsystem
+Homepage: http://grasehotspot.org/
+
+Package: grase-www-portal-ext-libs
+Priority: extra
+Section: net
+Installed-Size: 10312
+Maintainer: Tim White <tim@grasehotspot.org>
+Architecture: all
+Source: grase-www-portal
+Version: 3.8.0.51.g084d455~jessie
+Filename: pool/main/g/grase-www-portal/grase-www-portal-ext-libs_3.8.0.51.g084d455~jessie_all.deb
+Size: 2396538
+MD5sum: ba242b47519422af13151a36e5f46007
+SHA1: 07c97c3e3d1a709becfdb0514566ccfc262d2b0a
+SHA256: 4940a13fd0a1affd9ae36d2eaadaac60dc299b4a98c5446b1b3b691923481c41
+SHA512: 2d79e43ab874b69a6592536cc9b9270c6d0b20ff37838adfc8b61b887f6e4c4cf204d4741e244eadcd769849164527d270c396bb754688aaaa4edfb1e29bcae5
+Description: External Libraries for the GRASE Hotspot System
+ The GRASE Hotspot System binds together CoovaChilli, Freeradius, MySQL,
+ and other systems as well as providing an administrative frontend to managing
+ users and other hotspot related tasks.
+ .
+ This package provides the external libraries for the portal webapps
+Homepage: http://grasehotspot.org/
+

@@ -1,0 +1,5 @@
+Origin: nightly jessie
+Label: nightly jessie
+Archive: jessie
+Architecture: amd64
+Component: main

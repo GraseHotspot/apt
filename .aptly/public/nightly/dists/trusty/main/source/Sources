@@ -1,0 +1,141 @@
+Package: coova-chilli
+Binary: coova-chilli
+Version: 1.4.16.g484b3b5~trusty
+Maintainer: David Bird (Coova Technologies) <support@coova.com>
+Build-Depends: debhelper (>= 7), libc6-dev | libc6-dev-amd64, gengetopt, libtool, automake, libssl-dev, libjson0-dev
+Architecture: any
+Standards-Version: 3.8.1
+Format: 1.0
+Directory: pool/main/c/coova-chilli
+Files:
+ c7ec36037ff847a1a0a0492af8d76806 695 coova-chilli_1.4.16.g484b3b5~trusty.dsc
+ 1ecefb8ef223f9459b5cc98b9e0f548f 4490895 coova-chilli_1.4.16.g484b3b5~trusty.tar.gz
+Checksums-Sha1:
+ 3b86eddda4875aed8aa6a645a6dbb9b6ece3cb46 695 coova-chilli_1.4.16.g484b3b5~trusty.dsc
+ 2dca9826e44050aadf161aa20b05a59d4e096aeb 4490895 coova-chilli_1.4.16.g484b3b5~trusty.tar.gz
+Package-List:
+ 
+ coova-chilli deb net optional
+Checksums-Sha256:
+ a6b2533a158e8528160028f1ace79649c49422d9f34a2c52acd050a55005ef3f 695 coova-chilli_1.4.16.g484b3b5~trusty.dsc
+ 58cc344e820d84939ce40ca8a20859a7521cc05a7e91dea22da4c0cce378459f 4490895 coova-chilli_1.4.16.g484b3b5~trusty.tar.gz
+
+Package: coova-chilli
+Binary: coova-chilli
+Version: 1.4.0.6.g4f8f821~trusty
+Maintainer: David Bird (Coova Technologies) <support@coova.com>
+Build-Depends: debhelper (>= 7), libc6-dev | libc6-dev-amd64, gengetopt, libtool, automake, libssl-dev, libjson0-dev
+Architecture: any
+Standards-Version: 3.8.1
+Format: 1.0
+Directory: pool/main/c/coova-chilli
+Files:
+ f89f97b9c9cc2b4ed47f71b2d659ac98 699 coova-chilli_1.4.0.6.g4f8f821~trusty.dsc
+ 80aee2cf6aeca365275dbc673948a7fd 4491371 coova-chilli_1.4.0.6.g4f8f821~trusty.tar.gz
+Checksums-Sha512:
+ 09e422d659fe869d3bfb795527c79ec743044226c8cfa925eb3cae82db27dbbf9f888724496b165a7a1712c56dafdf10cdb92a47edb548b0b70636036716f947 699 coova-chilli_1.4.0.6.g4f8f821~trusty.dsc
+Checksums-Sha256:
+ 977246054939c4d01b4d9d6055b03f6447c9219489128466ac1de2d6186b3ed9 699 coova-chilli_1.4.0.6.g4f8f821~trusty.dsc
+ 8bc44522d314409c5455e61ee66c514a94e7e70ae394c013658a150655b11f28 4491371 coova-chilli_1.4.0.6.g4f8f821~trusty.tar.gz
+Checksums-Sha1:
+ a95854e9f33c1b0aba9167ea4a67aa53007d9f3e 699 coova-chilli_1.4.0.6.g4f8f821~trusty.dsc
+ b79d4f8a94d3ecc16c910767bc32cc9d20f1987d 4491371 coova-chilli_1.4.0.6.g4f8f821~trusty.tar.gz
+Package-List:
+ 
+ coova-chilli deb net optional
+
+Package: coova-chilli
+Binary: coova-chilli
+Version: 1.4.0.4.g484b3b5~trusty
+Maintainer: David Bird (Coova Technologies) <support@coova.com>
+Build-Depends: debhelper (>= 7), libc6-dev | libc6-dev-amd64, gengetopt, libtool, automake, libssl-dev, libjson0-dev
+Architecture: any
+Standards-Version: 3.8.1
+Format: 1.0
+Directory: pool/main/c/coova-chilli
+Files:
+ ed1dbe02c9b5dc677fc52ea992f69824 699 coova-chilli_1.4.0.4.g484b3b5~trusty.dsc
+ 9530ea865c3519ef513d515d2d810142 4490161 coova-chilli_1.4.0.4.g484b3b5~trusty.tar.gz
+Checksums-Sha1:
+ 23dfff6bfff2dfa83abdae0dad53f7e668e6dfb6 699 coova-chilli_1.4.0.4.g484b3b5~trusty.dsc
+ cb368d7a64904c9f7eb9ff02971d362f7b3136e6 4490161 coova-chilli_1.4.0.4.g484b3b5~trusty.tar.gz
+Checksums-Sha256:
+ 71e501aa623ab2b2c6730df69b7c7cd2ab8527fa65c11d7b9e6806833530b927 699 coova-chilli_1.4.0.4.g484b3b5~trusty.dsc
+ 498cc7b64c0085d878b35e666a779595b712b925e6109f5fd86c39de65b9dc85 4490161 coova-chilli_1.4.0.4.g484b3b5~trusty.tar.gz
+Package-List:
+ 
+ coova-chilli deb net optional
+
+Package: grase-conf-dnsmasq
+Binary: grase-conf-dnsmasq
+Version: 1.6.1.g26abb9f~trusty
+Maintainer: Tim White <tim@hotspot.purewhite.id.au>
+Build-Depends-Indep: cdbs, debhelper, dh-buildinfo, config-package-dev (>= 5.0~)
+Architecture: all
+Standards-Version: 3.9.1
+Format: 1.0
+Directory: pool/main/g/grase-conf-dnsmasq
+Files:
+ e8794f63629aaac89423f038c0a1b8e4 708 grase-conf-dnsmasq_1.6.1.g26abb9f~trusty.dsc
+ a1a01fe6c7d7e19d473619bcc7077dfe 26506 grase-conf-dnsmasq_1.6.1.g26abb9f~trusty.tar.gz
+Checksums-Sha1:
+ dd8446cff12364cf05b8de0598fe6e2d92b737d5 708 grase-conf-dnsmasq_1.6.1.g26abb9f~trusty.dsc
+ e5b54e801ac4f7d4e718e59f57d6b06e5f7be271 26506 grase-conf-dnsmasq_1.6.1.g26abb9f~trusty.tar.gz
+Package-List:
+ 
+ grase-conf-dnsmasq deb config extra
+Checksums-Sha512:
+ a8bf06ec945d30b461a2b9db2d22e48033c14ccc63f416bd02d70f7bc02f7aee5a125ce432f36475c0574665688b0684036cd0dfd9db878574fbc4856230063b 708 grase-conf-dnsmasq_1.6.1.g26abb9f~trusty.dsc
+Homepage: http://grasehotspot.org/
+Checksums-Sha256:
+ 4887c9d070cef37df9aad7a4af4ad55c327e130e11d88c56cb5b67d02666c9fb 708 grase-conf-dnsmasq_1.6.1.g26abb9f~trusty.dsc
+ 3920e4b19c1011d2ddc2f9fa4d51beb3ac1a768ac74054527b0e22fa99318023 26506 grase-conf-dnsmasq_1.6.1.g26abb9f~trusty.tar.gz
+
+Package: grase-conf-freeradius
+Binary: grase-conf-freeradius
+Version: 1.9.4.22.gdd049f3~trusty
+Maintainer: Tim White <tim@grasehotspot.org>
+Build-Depends: cdbs, debhelper, dh-buildinfo, config-package-dev (>= 5.0~)
+Architecture: all
+Standards-Version: 3.8.4
+Format: 3.0 (native)
+Directory: pool/main/g/grase-conf-freeradius
+Files:
+ 92c6c9f3283fcaa03054b999e453af63 734 grase-conf-freeradius_1.9.4.22.gdd049f3~trusty.dsc
+ 45f68cc053f6b3138647b0414802c077 27093 grase-conf-freeradius_1.9.4.22.gdd049f3~trusty.tar.gz
+Checksums-Sha1:
+ 01ce0b51fefef855d9853cd31c9a2b3e74d21fb7 734 grase-conf-freeradius_1.9.4.22.gdd049f3~trusty.dsc
+ cd9d58a33e6357c3dfbf32aeb195c32792e31ce6 27093 grase-conf-freeradius_1.9.4.22.gdd049f3~trusty.tar.gz
+Homepage: http://grasehotspot.org/
+Checksums-Sha256:
+ 8ca11abb2943be09043e235a4a9d132f9ec7e7f1b08f42ce1066c1d5e87e66e6 734 grase-conf-freeradius_1.9.4.22.gdd049f3~trusty.dsc
+ 310ecf0634e7b33f987df3113ad8107c2b3ba9263b9d1c372a1750a9878f9f27 27093 grase-conf-freeradius_1.9.4.22.gdd049f3~trusty.tar.gz
+Checksums-Sha512:
+ 185206ae921370b04758d26ce9e2593a8178a281cb8837073ff82bb992aa581b65fcfdf464379d7c0f5a5d1d0fc626bc0e864a411fb6f98c57eed414714288a3 734 grase-conf-freeradius_1.9.4.22.gdd049f3~trusty.dsc
+Package-List:
+ 
+ grase-conf-freeradius deb config extra
+
+Package: grase-conf-squid3
+Binary: grase-conf-squid3
+Version: 1.6.24.gfcc2e33~trusty
+Maintainer: Tim White <tim@grasehotspot.org>
+Build-Depends-Indep: cdbs, debhelper, dh-buildinfo
+Architecture: all
+Standards-Version: 3.9.5
+Format: 1.0
+Directory: pool/main/g/grase-conf-squid3
+Files:
+ 1d73d98387462cf8a54b256c0099f62d 672 grase-conf-squid3_1.6.24.gfcc2e33~trusty.dsc
+ 87d6a29e455263651bda7f5079665cfc 848286 grase-conf-squid3_1.6.24.gfcc2e33~trusty.tar.gz
+Checksums-Sha1:
+ ba64b9dcc1237d586d603cf6f2af00cc917c56c5 672 grase-conf-squid3_1.6.24.gfcc2e33~trusty.dsc
+ 09c34241146b6edba49107a36832dcea844a4fd9 848286 grase-conf-squid3_1.6.24.gfcc2e33~trusty.tar.gz
+Checksums-Sha256:
+ 0963d4b2b7a5b7b4f63cd2b8c089839a6a115189b21f1184f7f93320e1d79f51 672 grase-conf-squid3_1.6.24.gfcc2e33~trusty.dsc
+ f77429bb5923ebd83ba5bca55d99f0dbe7aaa7e2e3efc57784965a72aab453ab 848286 grase-conf-squid3_1.6.24.gfcc2e33~trusty.tar.gz
+Package-List:
+ 
+ grase-conf-squid3 deb config extra
+Homepage: http://grasehotspot.org/
+

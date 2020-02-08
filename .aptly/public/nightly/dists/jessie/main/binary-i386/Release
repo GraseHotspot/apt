@@ -1,0 +1,5 @@
+Origin: nightly jessie
+Label: nightly jessie
+Archive: jessie
+Architecture: i386
+Component: main
