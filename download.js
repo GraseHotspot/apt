@@ -8,6 +8,14 @@ var status = require('node-status')
 console = status.console()
 
 var artifact_urls = [
+  'https://gitlab.com/grase/grase-conf-openvpn/builds/artifacts/master/download?job=trusty-all',
+  'https://gitlab.com/grase/grase-conf-openvpn/builds/artifacts/master/download?job=bionic-all',
+  'https://gitlab.com/grase/grase-conf-freeradius/builds/artifacts/master/download?job=bionic-all',
+  'https://gitlab.com/grase/grase-conf-apache2/builds/artifacts/symfony4/download?job=bionic-all',
+  'https://gitlab.com/grase/grase-conf-dnsmasq/builds/artifacts/symfony4/download?job=bionic-all',
+  'https://gitlab.com/grase/grase-www-portal/builds/artifacts/symfony4/download?job=bionic-all',
+  'https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.5.0/download?job=bionic-amd64',
+/*
   'https://gitlab.com/grase/grase-conf-freeradius/builds/artifacts/master/download?job=trusty-all'  ,
   'https://gitlab.com/grase/grase-conf-freeradius/builds/artifacts/master/download?job=xenial-all',
   'https://gitlab.com/grase/grase-conf-freeradius/builds/artifacts/master/download?job=jessie-all',
@@ -30,7 +38,7 @@ var artifact_urls = [
   'https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.4.0/download?job=xenial-armhf',
   'https://gitlab.com/grase/grase-conf-squid3/builds/artifacts/squid_3.5/download?job=trusty-all',
   'https://gitlab.com/grase/grase-conf-squid3/builds/artifacts/squid_3.5/download?job=xenial-all',
-  'https://gitlab.com/grase/grase-conf-squid3/builds/artifacts/squid_3.5/download?job=jessie-all',
+  'https://gitlab.com/grase/grase-conf-squid3/builds/artifacts/squid_3.5/download?job=jessie-all',*/
 ];
 
 download_urls = status.addItem('Download_Urls', {
