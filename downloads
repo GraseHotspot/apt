@@ -1,0 +1,48 @@
+#!/bin/bash
+
+ARTIFACTS="
+
+https://gitlab.com/grase/grase-conf-freeradius/builds/artifacts/master/download?job=bionic-all
+https://gitlab.com/grase/grase-conf-apache2/builds/artifacts/symfony4/download?job=bionic-all
+https://gitlab.com/grase/grase-conf-dnsmasq/builds/artifacts/symfony4/download?job=bionic-all
+https://gitlab.com/grase/grase-www-portal/builds/artifacts/symfony4/download?job=bionic-all
+https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.5.0/download?job=bionic-amd64
+
+"
+DISABLED="
+https://gitlab.com/grase/grase-conf-squid3/builds/artifacts/squid_3.5/download?job=trusty-all
+https://gitlab.com/grase/grase-conf-squid3/builds/artifacts/squid_3.5/download?job=xenial-all
+https://gitlab.com/grase/grase-conf-squid3/builds/artifacts/squid_3.5/download?job=jessie-all
+
+https://gitlab.com/grase/grase-www-portal/builds/artifacts/hotfix/3.8.1/download?job=trusty-all
+https://gitlab.com/grase/grase-www-portal/builds/artifacts/hotfix/3.8.1/download?job=xenial-all
+https://gitlab.com/grase/grase-www-portal/builds/artifacts/hotfix/3.8.1/download?job=jessie-all
+https://gitlab.com/grase/grase-conf-freeradius/builds/artifacts/master/download?job=trusty-all
+https://gitlab.com/grase/grase-conf-freeradius/builds/artifacts/master/download?job=xenial-all
+https://gitlab.com/grase/grase-conf-freeradius/builds/artifacts/master/download?job=jessie-all
+https://gitlab.com/grase/grase-conf-apache2/builds/artifacts/master/download?job=trusty-all
+https://gitlab.com/grase/grase-conf-apache2/builds/artifacts/master/download?job=xenial-all
+https://gitlab.com/grase/grase-conf-apache2/builds/artifacts/master/download?job=jessie-all
+https://gitlab.com/grase/grase-conf-dnsmasq/builds/artifacts/master/download?job=trusty-all
+https://gitlab.com/grase/grase-conf-dnsmasq/builds/artifacts/master/download?job=xenial-all
+https://gitlab.com/grase/grase-conf-dnsmasq/builds/artifacts/master/download?job=jessie-all
+https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.4.0/download?job=jessie-amd64
+https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.4.0/download?job=jessie-armel
+https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.4.0/download?job=jessie-armhf
+https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.4.0/download?job=jessie-i386
+https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.4.0/download?job=trusty-amd64
+https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.4.0/download?job=xenial-amd64
+https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.4.0/download?job=xenial-i386
+https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.4.0/download?job=xenial-armhf
+https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.4.0/download?job=bionic-php56-i386
+https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.4.0/download?job=bionic-php56-armhf
+
+"
+
+
+for i in $ARTIFACTS
+do
+  wget -O /tmp/artifacts.zip "$i"
+  unzip -n /tmp/artifacts.zip || { echo "Something wrong with this download $i"; exit 1; }
+  rm /tmp/artifacts.zip
+done
