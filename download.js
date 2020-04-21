@@ -4,8 +4,8 @@ var request = require('request');
 var md5 = require('md5');
 var fs = require('fs');
 var extract = require('extract-zip')
-var status = require('node-status')
-console = status.console()
+//var status = require('node-status')
+//console = status.console()
 
 var artifact_urls = [
   'https://gitlab.com/grase/grase-conf-openvpn/builds/artifacts/master/download?job=trusty-all',
@@ -41,7 +41,7 @@ var artifact_urls = [
   'https://gitlab.com/grase/grase-conf-squid3/builds/artifacts/squid_3.5/download?job=jessie-all',*/
 ];
 
-download_urls = status.addItem('Download_Urls', {
+/*download_urls = status.addItem('Download_Urls', {
   max: artifact_urls.length,
   label: "Downloaded"
 })
@@ -52,8 +52,13 @@ extract_zips = status.addItem('Extract_Zips', {
 status.start({
   pattern: 'Fetching artifacts: {uptime.green} | Downloaded: {Download_Urls.green.bar} | Extracted: {Extract_Zips.cyan.bar}'
 })
+*/
+downloaded = 0;
 
 artifact_urls.forEach(download_extract_url);
+/*for(var i=0; i<artifact_urls.length; i++) {
+    download_extract_url(artifact_urls[i]);
+}*/
 
 function download_extract_url(url) {
   var filename = '/tmp/' + md5(url) + '.zip';
@@ -72,18 +77,20 @@ function download_extract_url(url) {
     .on('finish', function() {
       if (url_response.statusCode != 200 ) {
         console.log("Error fetching " + url + ". Status: " + url_response.statusCode)
-        download_urls.inc()
-        extract_zips.max = extract_zips.max - 1
+        //download_urls.inc()
+        downloaded++;
+        //extract_zips.max = extract_zips.max - 1
       } else {
-        //console.log("Finished downloading " + url)
-        download_urls.inc()
+        console.log("Finished downloading " + url)
+        //download_urls.inc()
+        downloaded++;
         extract(filename, {dir: '/home/tim/grase/aptly.incoming/artifacts/'}, function (err) {
           if(err) {
             console.log("Failed to extract " + filename);
             console.log(err);
           } else {
-            //console.log("Extraction of " + filename + " finished.");
-            extract_zips.inc()
+            console.log("Extraction of " + filename + " finished.");
+            //extract_zips.inc()
           }
          })
       }
@@ -91,8 +98,9 @@ function download_extract_url(url) {
 }
 
 var checkFinished = setInterval(function(){
-  if (download_urls.count >= download_urls.max) {
-    status.stop();
+  //if (download_urls.count >= download_urls.max) {
+  if (downloaded >= artifact_urls.length) {
+    //status.stop();
     console.log();
     console.log("All urls downloaded");
     clearInterval(checkFinished);
