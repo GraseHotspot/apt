@@ -9,8 +9,8 @@ Build-Depends: debhelper (>= 7), libc6-dev | libc6-dev-amd64, gengetopt, libtool
 Package-List:
  coova-chilli deb net optional arch=any
 Checksums-Sha1:
- 356886055df289c5e0dbd9c02048bc7c5c896247 4478168 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
+ 9e0af6994dc3b6dc7f776da483157f3cc79e79f2 4478167 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
 Checksums-Sha256:
- add39ff3c71d21de172f328e600c1fe72602a01eb998ee28acf54475a80e2a55 4478168 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
+ 6810e845bd384e6b6bfe0a73b5546a0b9da3fbb2e9143fa972e2f70ff94d0da3 4478167 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
 Files:
- 0144f94af5a1c5b23d3432ae3071a9cd 4478168 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
+ bbe4b623b93b49480103834a958c33fe 4478167 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz

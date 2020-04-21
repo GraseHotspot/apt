@@ -10,8 +10,8 @@ Build-Depends-Indep: cdbs, debhelper, dh-buildinfo, config-package-dev (>= 5.2~)
 Package-List:
  grase-conf-dnsmasq deb config extra arch=all
 Checksums-Sha1:
- 3aea0638d870603c374f595adfef8513811692bd 29914 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
+ fc3fa0eecc7eee82e11d55cfbbf0007baf58358f 29925 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
 Checksums-Sha256:
- 865222de48db805b6e8cc436b72d68ac8e407ed9f4e133cdf69c721a17e531cb 29914 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
+ a98b72861b7e619a1eee8ac152ff3024f4261f2a60de6e7c691d8642b77f2ff3 29925 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
 Files:
- 474c487768935ee041a1d86b3e5de5b4 29914 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
+ dd609a0e757457c0957c055b330027c9 29925 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
