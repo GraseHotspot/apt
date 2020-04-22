@@ -226,6 +226,29 @@ Homepage: http://grasehotspot.org/
 Package: grase-www-portal
 Priority: extra
 Section: net
+Installed-Size: 24576
+Maintainer: Tim White <tim@grasehotspot.org>
+Architecture: all
+Version: 3.8.0.359.g57dc2764~bionic
+Depends: debconf (>= 0.5) | debconf-2.0, php-cli (>= 7.1), php (>= 7.1), php-mysql (>= 7.1), php-intl (>= 7.1), php-xml (>= 7.1), grase-conf-apache2 | grase-conf-nginx, mariadb-client | virtual-mysql-client, gzip, grase-www-portal-ext-libs (= 3.8.0.359.g57dc2764~bionic), wget, iproute2, dbconfig-common, dbconfig-mysql | dbconfig-no-thanks
+Recommends: mariadb-server | virtual-mysql-server
+Filename: pool/main/g/grase-www-portal/grase-www-portal_3.8.0.359.g57dc2764~bionic_all.deb
+Size: 3987824
+MD5sum: 341cad5314dfa037c7f82f77e0c5b2ff
+SHA1: f12f245aa2a0562053986fdae85769402775e3b6
+SHA256: a4044cbe1e8b6771bc5600f35f6888027b98743c1187de5c43b4a191f8e0cf3c
+SHA512: aea13bed202d2922b13e7b76f519be2460f65733ba931f7487c7fe591873b3edf20762dfe6cf760f3b6b22e9a0ecea52e6d897393e0779d1eabe42ccb21bb8a9
+Description: Portal files for the GRASE Hotspot System
+ The GRASE Hotspot System binds together CoovaChilli, Freeradius, MySQL,
+ and other systems as well as providing an administrative frontend to managing
+ users and other hotspot related tasks.
+ .
+ This package provides the portal webapps
+Homepage: http://grasehotspot.org/
+
+Package: grase-www-portal
+Priority: extra
+Section: net
 Installed-Size: 28216
 Maintainer: Tim White <tim@grasehotspot.org>
 Architecture: all
@@ -289,6 +312,28 @@ Description: Portal files for the GRASE Hotspot System
  users and other hotspot related tasks.
  .
  This package provides the portal webapps
+Homepage: http://grasehotspot.org/
+
+Package: grase-www-portal-ext-libs
+Priority: extra
+Section: net
+Installed-Size: 51890
+Maintainer: Tim White <tim@grasehotspot.org>
+Architecture: all
+Source: grase-www-portal
+Version: 3.8.0.359.g57dc2764~bionic
+Filename: pool/main/g/grase-www-portal/grase-www-portal-ext-libs_3.8.0.359.g57dc2764~bionic_all.deb
+Size: 6653404
+MD5sum: 08b30de4f1d60a9afaa043e95127af86
+SHA1: c37c440d8db5c3b95e13f73457258150367ffb4f
+SHA256: dd3121df119da9826bafa6262a815c5c8446c3a4456da016bd57be2850fa1f38
+SHA512: 44c52daef969d86e1cf99404eb6ed7c5dc8967beece04845dbe2e8864c77eb06407cd3944459eabefbadfc3f8e7eccb06c0e7df627f398b53cbd15bbcbe1cab0
+Description: External Libraries for the GRASE Hotspot System
+ The GRASE Hotspot System binds together CoovaChilli, Freeradius, MySQL,
+ and other systems as well as providing an administrative frontend to managing
+ users and other hotspot related tasks.
+ .
+ This package provides the external libraries for the portal webapps
 Homepage: http://grasehotspot.org/
 
 Package: grase-www-portal-ext-libs
