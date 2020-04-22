@@ -9,11 +9,11 @@ Replaces: grase-www-portal (<< 3.6.4)
 Depends: apache2, libapache2-mod-php | libapache2-mod-php5
 Breaks: grase-www-portal (<< 3.6.4)
 Filename: pool/main/g/grase-conf-apache2/grase-conf-apache2_1.1.39.gdda6797~bionic_all.deb
-Size: 6536
-MD5sum: 80f5ffc71b6e7989572971e6076dc066
-SHA1: 1718ef60c5b791c2a84cc4bbb14c74cf11da7ac6
-SHA256: e8f4da6f71d5543e68cf5bc6d828946c2702dcdbc21c111ba9d9b797c9734319
-SHA512: 9ef52f317151a74799792df8ea953aa097ec386c2884a5a02fe8174a6ae1e6baa2e8830c9959a9136145dbb25b7ffec50417b36f671a81f3eaf579de6bf98d19
+Size: 6532
+MD5sum: 2a35b0e11145b955d5e6812e17d4255a
+SHA1: 31610b9b071d062dbf125aab8e534e6b9a742647
+SHA256: fd2c1cc943372200e97f0cb3151d8369022cf6aaa9b60f94542dc443cc494db6
+SHA512: 0625f1b878c11c1deceb823a5739286938c1c76e96c07f680e9fdd77e48a7e08c7fb25eb4b36d465c6c104d7f1f11796f8bfe1521e871199d3acd2070ed164b7
 Description: Config files for Apache2 for the GRASE Hotspot System
  The GRASE Hotspot System binds together CoovaChilli, Freeradius, MySQL, and
  other systems as well as providing an administrative frontend to managing
@@ -31,11 +31,11 @@ Architecture: all
 Version: 1.6.4.g266210c~bionic
 Depends: dnsmasq (>= 2.51), php-cli
 Filename: pool/main/g/grase-conf-dnsmasq/grase-conf-dnsmasq_1.6.4.g266210c~bionic_all.deb
-Size: 6932
-MD5sum: 09cb901ca11c77e8d761734478963ea4
-SHA1: 3da493f3949b26f3bf03a3b68810de3dca0c09ea
-SHA256: b956182988f0cda646b4b203d01b7035dfb1f8785c1507f8cf5fe35dd0333be6
-SHA512: bb2be2c0e78b620feee00c3edc223eb48c651ce53b3699e9ef6c4e23e80f44af9181454a7f9936282ecc48b4e7edd17be892cd6b56ecf3873898521990459dc1
+Size: 6936
+MD5sum: f3405505cb6500ac3ff82371bab87180
+SHA1: 11b0df51235cd3caa3bcad338c3985e18af53717
+SHA256: 8670c524c1d2dc2445ea233bd9d3811bfa0248816fccd3940ea649dc21fd0142
+SHA512: 6af66624136663432f9b639d21a362e63185392161d3d8c4931a25b7a0c4ca7efbb367142341275e2c123c905ae9051b33d49b2422f4dbf140334b404e0017d5
 Description: Config files for Dnsmasq for the GRASE Hotspot System
  The GRASE Hotspot System binds together CoovaChilli, Freeradius, MySQL, and
  other systems as well as providing an administrative frontend to managing
@@ -56,17 +56,40 @@ Depends: dbconfig-common, dbconfig-mysql | dbconfig-no-thanks, debconf (>= 0.5) 
 Pre-Depends: freeradius (>= 3.0.0), freeradius-mysql (>= 3.0.0), coova-chilli (>= 1.4.0), mariadb-client | virtual-mysql-client
 Conflicts: diverts-etc++freeradius++3.0++dictionary
 Filename: pool/main/g/grase-conf-freeradius/grase-conf-freeradius_1.9.4.47.g9bdf184~bionic_all.deb
-Size: 30924
-MD5sum: feb979a2e15d4b62f06dfd64b84c6282
-SHA1: f6f3dfb132f6cd445a4388d8cb15a1bf9989f96d
-SHA256: eaf72a6d09e238c873608e5175d4e35686557e9c0f226702aef6369fce9d12ad
-SHA512: 8cc2cde3def907a67ae08d20d8135bf4c50b8b88810a70c07f44e7fb3c1af176305ac01cc65f40ddff045acadea9d81bcd6a300618955de362ae0c9db0fb7f71
+Size: 30936
+MD5sum: dbecbee930c2546df114a57e252f279c
+SHA1: cc52c4fc8a4aab9119db23266895f8e43e564b3a
+SHA256: 66ee7dc9cae0e83430abf90e8a0e4c2b3fe66004f9c5aa0e01986b71c4553a81
+SHA512: be5be97208477bc20714d33d356c486ca8e1746ecac6aa0846d8d4c6095ac579618652034f8ce991fc4095d91887ef238ae969277199962620270eb1fb66f725
 Description: Config files for FreeRADIUS for the GRASE Hotspot System
  The GRASE Hotspot System binds together CoovaChilli, FreeRADIUS, MySQL,
  and other systems as well as providing an administrative frontend to managing
  users and other hotspot related tasks.
  .
  This package provides Configuration files for the FreeRADIUS subsystem
+Homepage: http://grasehotspot.org/
+
+Package: grase-www-portal
+Priority: extra
+Section: net
+Installed-Size: 28216
+Maintainer: Tim White <tim@grasehotspot.org>
+Architecture: all
+Version: 3.8.0.358.ge327eefc~bionic
+Depends: debconf (>= 0.5) | debconf-2.0, php-cli (>= 7.1), php (>= 7.1), php-mysql (>= 7.1), php-intl (>= 7.1), php-xml (>= 7.1), grase-conf-apache2 | grase-conf-nginx, mariadb-client | virtual-mysql-client, gzip, grase-www-portal-ext-libs (= 3.8.0.358.ge327eefc~bionic), wget, iproute2, dbconfig-common, dbconfig-mysql | dbconfig-no-thanks
+Recommends: mariadb-server | virtual-mysql-server
+Filename: pool/main/g/grase-www-portal/grase-www-portal_3.8.0.358.ge327eefc~bionic_all.deb
+Size: 4545592
+MD5sum: d70cc15f7c5a4672f1d348b14715bef0
+SHA1: 089a2453f060959e65701a7da7529b0da195312a
+SHA256: cd4577ca21edd55e6444938bfd8174c1664e115947818570d4c7a890914682bc
+SHA512: 722259b384185f042ee639fe6a5c1750631583da78f95a95f3b35863d5dce1f2a46aaaebbf990020824222331559761376ddb84333488eb629d87499ded4e292
+Description: Portal files for the GRASE Hotspot System
+ The GRASE Hotspot System binds together CoovaChilli, Freeradius, MySQL,
+ and other systems as well as providing an administrative frontend to managing
+ users and other hotspot related tasks.
+ .
+ This package provides the portal webapps
 Homepage: http://grasehotspot.org/
 
 Package: grase-www-portal
@@ -112,6 +135,28 @@ Description: Portal files for the GRASE Hotspot System
  users and other hotspot related tasks.
  .
  This package provides the portal webapps
+Homepage: http://grasehotspot.org/
+
+Package: grase-www-portal-ext-libs
+Priority: extra
+Section: net
+Installed-Size: 51890
+Maintainer: Tim White <tim@grasehotspot.org>
+Architecture: all
+Source: grase-www-portal
+Version: 3.8.0.358.ge327eefc~bionic
+Filename: pool/main/g/grase-www-portal/grase-www-portal-ext-libs_3.8.0.358.ge327eefc~bionic_all.deb
+Size: 6653140
+MD5sum: 44790f5e5238c38779d83f9efb9c984f
+SHA1: fac88e0d1bbdda706cff601d644f7ff69639c94f
+SHA256: 939eeeaa99b7cb55078b919bb5c5f69b0551ebfb607c54187ba593b6c704e0bb
+SHA512: dfff6b87813da205023c2daa8abdcde0ce458b09b6afb2d7b33795ccee39dd96372f445265d2b2f7695d73462d937eae8961cf8e8a8027b2760f8dd8bd1f5804
+Description: External Libraries for the GRASE Hotspot System
+ The GRASE Hotspot System binds together CoovaChilli, Freeradius, MySQL,
+ and other systems as well as providing an administrative frontend to managing
+ users and other hotspot related tasks.
+ .
+ This package provides the external libraries for the portal webapps
 Homepage: http://grasehotspot.org/
 
 Package: grase-www-portal-ext-libs
