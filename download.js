@@ -84,7 +84,7 @@ function download_extract_url(url) {
         console.log("Finished downloading " + url)
         //download_urls.inc()
         downloaded++;
-        extract(filename, {dir: '/home/tim/grase/aptly.incoming/artifacts/'}, function (err) {
+        extract(filename, {dir: '/home/tim/grase/aptly.repo/artifacts/'}, function (err) {
           if(err) {
             console.log("Failed to extract " + filename);
             console.log(err);
