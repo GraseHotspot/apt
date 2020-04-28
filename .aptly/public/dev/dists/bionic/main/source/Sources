@@ -8,19 +8,19 @@ Standards-Version: 3.9.8
 Format: 1.0
 Directory: pool/main/c/coova-chilli
 Files:
- 636277bfcd304119e4f97c9cdd0a81b0 701 coova-chilli_1.5.24.g9ddc2e7~bionic.dsc
- 1924396252d7370e7f4ec3cdfbd71816 4478155 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
-Checksums-Sha1:
- 4d4c1542ac76d139e35ddb9ef7fffc9f9f2e8eea 701 coova-chilli_1.5.24.g9ddc2e7~bionic.dsc
- a75b3ee203cfc05ac7a53baa4080c55b7453df6d 4478155 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
+ 72efc071dd1e07a38a9672f9cf0cf715 701 coova-chilli_1.5.24.g9ddc2e7~bionic.dsc
+ fdc9e7c867b2114cb92c9a25158af19d 4478161 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
 Package-List:
  coova-chilli deb net optional arch=any
+Checksums-Sha1:
+ 5f7980e04579d4063658f044358d262cb969bf43 701 coova-chilli_1.5.24.g9ddc2e7~bionic.dsc
+ d10363362b3cf6fb0fa3099d0295923199170c66 4478161 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
 Checksums-Sha256:
- 25b4a30cd6e0c4b9f7d15f38723b91643ea6fae03df65a3f69ae420db343a4f1 701 coova-chilli_1.5.24.g9ddc2e7~bionic.dsc
- 2d62af7e24eb70e7470fecd2765c1035264fcae8fd0207d01b536449c1671fd3 4478155 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
+ e26fad1c3aea6e289a8f9cd6fcef43b73088286fac1cdf14de6562dad29a8f15 701 coova-chilli_1.5.24.g9ddc2e7~bionic.dsc
+ 1ab10b942a58e74d29e61009d39d426d3b1edb0c054e339889e53b4a78c3c0ee 4478161 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
 Checksums-Sha512:
- d5fdea4871fd50ff5fc0e539571b8ae03cc506820c8d18b2b2585a49bd48fbfb262104f773581fff186254b5440124e8e66b5c4130434aba98ceba79fef22aae 701 coova-chilli_1.5.24.g9ddc2e7~bionic.dsc
- 4ff818e9f8d366013828eccdadb1387c2c7ad8899cb0d88f422d5666a7f010af6e2f6d785548d44241f7960bf541c0df1aa1cddbffc813f51752e5c0dd0df11b 4478155 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
+ 682691b3c7b044114098a69d73cda1705ffc0c58da3ff09de0ef9bb08eab478d8f77fc3bad33e10003bbbd93e9ea2a206b1cef871b1404d4446cc0f377fd0a90 701 coova-chilli_1.5.24.g9ddc2e7~bionic.dsc
+ b23ccc2f9a90217624867f66606e5c55b2fc8cee99a1b75da1d92cb7cc8be6611096049e62056c16e408cbf6eefe03138a472c510e20acd6a2b094e71b6bb13a 4478161 coova-chilli_1.5.24.g9ddc2e7~bionic.tar.gz
 
 Package: coova-chilli
 Binary: coova-chilli
@@ -34,17 +34,17 @@ Directory: pool/main/c/coova-chilli
 Files:
  61c5caf2de67947f09a226c6a195b406 701 coova-chilli_1.5.23.ga135c4d~bionic.dsc
  2a37a43c3e8fabb9aaf1e21cb7d79725 4476786 coova-chilli_1.5.23.ga135c4d~bionic.tar.gz
-Checksums-Sha256:
- 301a2df4f0fe75b02e41be27ce85f06e9ca4e7ff515405512661cb4f9100283e 701 coova-chilli_1.5.23.ga135c4d~bionic.dsc
- a3fe284967dcfc855d9d3d9740c4a024bae35cf3036532d7ac871c9d97f21dc5 4476786 coova-chilli_1.5.23.ga135c4d~bionic.tar.gz
-Checksums-Sha512:
- e0d84f730a929beeb2f513ad7360bdd41141f891044f967f65f232cc8767a4982b54da64a2e88ac47e0dc1ba518276bc728e545eff584b9d7f5732526422871c 701 coova-chilli_1.5.23.ga135c4d~bionic.dsc
- 7a763a304e9f1d08eddda2e21e761f971e45cc3a28dce3eddae3133f82355b8a33308e4de99e6227b3776b47c993d340ca9b722b2faf1df404589dadfb039d62 4476786 coova-chilli_1.5.23.ga135c4d~bionic.tar.gz
-Package-List:
- coova-chilli deb net optional arch=any
 Checksums-Sha1:
  da095c71c92dd69f67a3675b32b544ba690b5f43 701 coova-chilli_1.5.23.ga135c4d~bionic.dsc
  6c0e889ed5851eef83193486b430371bb57d7edf 4476786 coova-chilli_1.5.23.ga135c4d~bionic.tar.gz
+Package-List:
+ coova-chilli deb net optional arch=any
+Checksums-Sha512:
+ e0d84f730a929beeb2f513ad7360bdd41141f891044f967f65f232cc8767a4982b54da64a2e88ac47e0dc1ba518276bc728e545eff584b9d7f5732526422871c 701 coova-chilli_1.5.23.ga135c4d~bionic.dsc
+ 7a763a304e9f1d08eddda2e21e761f971e45cc3a28dce3eddae3133f82355b8a33308e4de99e6227b3776b47c993d340ca9b722b2faf1df404589dadfb039d62 4476786 coova-chilli_1.5.23.ga135c4d~bionic.tar.gz
+Checksums-Sha256:
+ 301a2df4f0fe75b02e41be27ce85f06e9ca4e7ff515405512661cb4f9100283e 701 coova-chilli_1.5.23.ga135c4d~bionic.dsc
+ a3fe284967dcfc855d9d3d9740c4a024bae35cf3036532d7ac871c9d97f21dc5 4476786 coova-chilli_1.5.23.ga135c4d~bionic.tar.gz
 
 Package: coova-chilli
 Binary: coova-chilli
@@ -58,17 +58,17 @@ Directory: pool/main/c/coova-chilli
 Files:
  337a668e22743eea10cb3107c73cd193 701 coova-chilli_1.5.22.g701b5a8~bionic.dsc
  2136c5d1602c8a683d4f364f45cce9ef 4477272 coova-chilli_1.5.22.g701b5a8~bionic.tar.gz
-Package-List:
- coova-chilli deb net optional arch=any
-Checksums-Sha256:
- 8962c8e110e05b14909810e6f88e751900f13a272185c6879e4f332505c778e2 701 coova-chilli_1.5.22.g701b5a8~bionic.dsc
- 45cbe4c57ced08e914693ee06d22e5ab449afa24434c231f0d2be0f9bc8614bf 4477272 coova-chilli_1.5.22.g701b5a8~bionic.tar.gz
 Checksums-Sha512:
  9032c0448afb3ad6ca2186847253921d8c6457b4f163f3cccb409526ce7cf92b0d36991ce0761a0f38f8d0b2dd4fe2f373199ae0d6741983dd2ee11fd7409eb4 701 coova-chilli_1.5.22.g701b5a8~bionic.dsc
  07ae1eb0d185fc3ebea7446c843c76a3e54a907785bc75ee7dac12eb0004ad10bffe75a45e49641f248eb014f135ffc0a6ef61df4a567d8395e0c64a56818375 4477272 coova-chilli_1.5.22.g701b5a8~bionic.tar.gz
 Checksums-Sha1:
  d39c59a69bf845f602628a449aa4f2dae920732d 701 coova-chilli_1.5.22.g701b5a8~bionic.dsc
  dabbfb654fefe760dd5e6159176234ebbb5b063d 4477272 coova-chilli_1.5.22.g701b5a8~bionic.tar.gz
+Package-List:
+ coova-chilli deb net optional arch=any
+Checksums-Sha256:
+ 8962c8e110e05b14909810e6f88e751900f13a272185c6879e4f332505c778e2 701 coova-chilli_1.5.22.g701b5a8~bionic.dsc
+ 45cbe4c57ced08e914693ee06d22e5ab449afa24434c231f0d2be0f9bc8614bf 4477272 coova-chilli_1.5.22.g701b5a8~bionic.tar.gz
 
 Package: coova-chilli
 Binary: coova-chilli
@@ -82,12 +82,12 @@ Directory: pool/main/c/coova-chilli
 Files:
  248e699386e849ffd48b0512bb16119d 709 coova-chilli_1.4.0.48.g701b5a8~bionic.dsc
  d2165dc5b1c0c0e9ecb2df82466b9b72 4477257 coova-chilli_1.4.0.48.g701b5a8~bionic.tar.gz
-Checksums-Sha512:
- 03be73635aa04f4df79467655786cab2028a231fc3cfa394e4fec3c8d78e1f0163fc404775d72262b49af9513c1590c86ff3a67d859910560ea5ffb9626982ae 709 coova-chilli_1.4.0.48.g701b5a8~bionic.dsc
- 890a00150479da1765a6bb304ee15add985234cdf1db16e8b6e7a57f23d5aa2cefa43e2b894cf89ab1af02aa8f18e2b24866795d495e52462c16c40dec1974f5 4477257 coova-chilli_1.4.0.48.g701b5a8~bionic.tar.gz
 Checksums-Sha1:
  399306a2449da176ac3d87cfa9972bd4a703dae1 709 coova-chilli_1.4.0.48.g701b5a8~bionic.dsc
  73114e110329b60979d6adf338004eb6e42714b4 4477257 coova-chilli_1.4.0.48.g701b5a8~bionic.tar.gz
+Checksums-Sha512:
+ 03be73635aa04f4df79467655786cab2028a231fc3cfa394e4fec3c8d78e1f0163fc404775d72262b49af9513c1590c86ff3a67d859910560ea5ffb9626982ae 709 coova-chilli_1.4.0.48.g701b5a8~bionic.dsc
+ 890a00150479da1765a6bb304ee15add985234cdf1db16e8b6e7a57f23d5aa2cefa43e2b894cf89ab1af02aa8f18e2b24866795d495e52462c16c40dec1974f5 4477257 coova-chilli_1.4.0.48.g701b5a8~bionic.tar.gz
 Checksums-Sha256:
  f57b6c8e6f7d0abace2481ef5f1582c44d1dc7159ede3f1ec5800d769c9b1d9b 709 coova-chilli_1.4.0.48.g701b5a8~bionic.dsc
  580e478e3b7c9a4a754c000947f2389bc0331505cfb4efd5ab2f65271af59fc3 4477257 coova-chilli_1.4.0.48.g701b5a8~bionic.tar.gz
@@ -130,14 +130,14 @@ Directory: pool/main/c/coova-chilli
 Files:
  ec2964c4495f03da839dac51e338cd08 704 coova-chilli_1.4.0.9.gd2cea81~bionic.dsc
  2bc57afa1d87902461424c31b4808754 4457644 coova-chilli_1.4.0.9.gd2cea81~bionic.tar.gz
+Checksums-Sha256:
+ 8966f196718972a63105dfe234f4b54b59191f0f96ed236708cd8c3c7cb9bcb3 704 coova-chilli_1.4.0.9.gd2cea81~bionic.dsc
+ 016ee8600802208b2f8e3af44582b69e0ab1994a54165c20167a79b839b87ab9 4457644 coova-chilli_1.4.0.9.gd2cea81~bionic.tar.gz
 Checksums-Sha1:
  ac85b32a48d2addbc8ef3e2948454a804125907c 704 coova-chilli_1.4.0.9.gd2cea81~bionic.dsc
  33fb92662254f1dc97975663185e3fc7b73edfb4 4457644 coova-chilli_1.4.0.9.gd2cea81~bionic.tar.gz
 Package-List:
  coova-chilli deb net optional arch=any
-Checksums-Sha256:
- 8966f196718972a63105dfe234f4b54b59191f0f96ed236708cd8c3c7cb9bcb3 704 coova-chilli_1.4.0.9.gd2cea81~bionic.dsc
- 016ee8600802208b2f8e3af44582b69e0ab1994a54165c20167a79b839b87ab9 4457644 coova-chilli_1.4.0.9.gd2cea81~bionic.tar.gz
 Checksums-Sha512:
  532109eaef00088e37d0b0dfa35ea9c689edf9d5bb70c528907525786994aa91cbc5a2f62a950d89a7a86a5c3d9258f338c6b703c8c548f1b3d7a20d518f3a41 704 coova-chilli_1.4.0.9.gd2cea81~bionic.dsc
  48c7bb518c2bfb304812e3fdedf19f903d068dadb86327e5c15d9be57f28d486546ef3984ba31aab2345e57407b2ac776864aa0fe5183dddb4ac0857d073d66b 4457644 coova-chilli_1.4.0.9.gd2cea81~bionic.tar.gz
@@ -152,20 +152,20 @@ Standards-Version: 3.9.1
 Format: 1.0
 Directory: pool/main/g/grase-conf-apache2
 Files:
- cd9bc2c2edec335ba361523775d4840e 710 grase-conf-apache2_1.1.39.gdda6797~bionic.dsc
- ed005761698619cd2e03c96008f9e335 26834 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
-Checksums-Sha1:
- f1af7f3c564a5048e5612a1225c63f6ab700e3d2 710 grase-conf-apache2_1.1.39.gdda6797~bionic.dsc
- 14cb0dc1be60f4a89319919e6929e2714a2cb1c8 26834 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
-Checksums-Sha512:
- bc0597959deaa3042d2a80deff40985ecb171c305fb1cae4563bd0e3adb5feca78341fb81ce81a8edd6d2c3d0755621c0c9570099b41708c95e1d3da233f8206 710 grase-conf-apache2_1.1.39.gdda6797~bionic.dsc
- 8aa5b079a12924682bf1e88350e44fbd8ed732eae421fe843ae29d6b9006c8f502526f0364125ee1e93657c2df7e363093b42374028c3d4539385271f611413e 26834 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
-Homepage: http://grasehotspot.org/
+ 051822a18f95b6c7ebf7ac6d420f400a 710 grase-conf-apache2_1.1.39.gdda6797~bionic.dsc
+ 8094b830e18cc57edeb4af8da0c9eb64 26842 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
 Package-List:
  grase-conf-apache2 deb config extra arch=all
+Checksums-Sha512:
+ e4bfcafbc1f7c71400f65365c2e989b60e0c9d65097afce68542554bcad82e2edf09fec5fb8f87d3caa69d05211dcd2a08ff5b151fdcbe468231d1751286592c 710 grase-conf-apache2_1.1.39.gdda6797~bionic.dsc
+ 6678e2682da469e60b77fd9be2de313efa9a097f00d8b5dc7dd51deba4b8dc683548fdab7bb529db770c0aad857b9a189ca62708a4463ab4500c5074d0bb3402 26842 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
+Homepage: http://grasehotspot.org/
 Checksums-Sha256:
- 7f76e95264e666d7b31edff84b074d70ef4db15e9fd4d9b29ab5ef55ed8c4a22 710 grase-conf-apache2_1.1.39.gdda6797~bionic.dsc
- fd26bc18643801bb527f0e93c00213ac5ee44b99dfe2467fc6b3b45d56801916 26834 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
+ 0c22833fb8498385af5ee4f22073ef328a57be6ee07727bba45ee51c12e7b12d 710 grase-conf-apache2_1.1.39.gdda6797~bionic.dsc
+ b09fe14e01cf36f7916ad9556275922abe977e48528f0838262f36d7872f8a44 26842 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
+Checksums-Sha1:
+ 2c9448bd11675a9bd285b7a1c5b6fbeb41d16438 710 grase-conf-apache2_1.1.39.gdda6797~bionic.dsc
+ bcd55b4d46909832b18bb7d1a6f10580b8f39508 26842 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
 
 Package: grase-conf-apache2
 Binary: grase-conf-apache2
@@ -182,15 +182,15 @@ Files:
 Checksums-Sha512:
  992074a1f3a1c11b1cf62c1467eddc7365592682d782eda019f5e773324e7566f1975b89177b424f83588a266f7448aafa9d0146db39c3950b429f800ee5af2a 710 grase-conf-apache2_1.1.34.g237a96d~bionic.dsc
  d99d76adbd107f970366943ffc9898cf0bfedeb0856ca2efe77d1d2d5f488251921880a0725a76b329c493377e2472d971c6ea050bc6210787605a96c11a1dff 26908 grase-conf-apache2_1.1.34.g237a96d~bionic.tar.gz
-Package-List:
- grase-conf-apache2 deb config extra arch=all
 Homepage: http://grasehotspot.org/
-Checksums-Sha256:
- 28622f38edeb6c2f8a13cf0672bc78353227442fa27ca4e3011c550165431cba 710 grase-conf-apache2_1.1.34.g237a96d~bionic.dsc
- 44f20d2f9ef2e2b487fefb36096479ac070ab15907acab2b67bffc1f30eab174 26908 grase-conf-apache2_1.1.34.g237a96d~bionic.tar.gz
 Checksums-Sha1:
  592276d7bc8343b8f42949717a7f19fc807d7835 710 grase-conf-apache2_1.1.34.g237a96d~bionic.dsc
  5d3a4c193292d8e4cb62ad7565c8edfc4a883f1c 26908 grase-conf-apache2_1.1.34.g237a96d~bionic.tar.gz
+Checksums-Sha256:
+ 28622f38edeb6c2f8a13cf0672bc78353227442fa27ca4e3011c550165431cba 710 grase-conf-apache2_1.1.34.g237a96d~bionic.dsc
+ 44f20d2f9ef2e2b487fefb36096479ac070ab15907acab2b67bffc1f30eab174 26908 grase-conf-apache2_1.1.34.g237a96d~bionic.tar.gz
+Package-List:
+ grase-conf-apache2 deb config extra arch=all
 
 Package: grase-conf-dnsmasq
 Binary: grase-conf-dnsmasq
@@ -202,20 +202,20 @@ Standards-Version: 3.9.1
 Format: 1.0
 Directory: pool/main/g/grase-conf-dnsmasq
 Files:
- aaf2623847d788d30735c176f948d3c3 713 grase-conf-dnsmasq_1.6.4.g266210c~bionic.dsc
- a8acd363145ed823daf45f01ee848f60 29922 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
-Checksums-Sha256:
- 66662e954d5050a1b7df2e9a7f937a94c01cbd3cb63d38fb58e1596934d82196 713 grase-conf-dnsmasq_1.6.4.g266210c~bionic.dsc
- 7150a5957284c1696bc6bd9971f792a32ecbc37f84918634386758f6b32eb1b3 29922 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
-Checksums-Sha512:
- eb9c849768db3136e872c6f783ca3ed413e6b27729263df24729a6dfe06ac81722e568d58b98dddaa15e58ff7301015abd1884944f9428741ade0a3a729db8dc 713 grase-conf-dnsmasq_1.6.4.g266210c~bionic.dsc
- b68700067a00da37c102bac98e7089cab383b00013644185893ac3dd18354b8d369764aa6788a2b6eec46cd99c04d3a8e36f9eb2160f13584ee49117685dde4f 29922 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
+ a1c156c5cf409e774ba3616aefd4e9dd 713 grase-conf-dnsmasq_1.6.4.g266210c~bionic.dsc
+ 0be0c606cbdaefc0cbd766de7d8aaacb 29931 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
 Homepage: http://grasehotspot.org/
 Package-List:
  grase-conf-dnsmasq deb config extra arch=all
+Checksums-Sha512:
+ 8ff4b9c86705ad680bcc965e1883a8e5f75102f7030906f98993ffd55b9d419ddb46a1ce32fa198797a97396060ba17c113f5ada1206a8d94c5e871b6f1a290f 713 grase-conf-dnsmasq_1.6.4.g266210c~bionic.dsc
+ 1439ccd8bb611eb204601e83524d42bf0fe3931360c8eac37b026abf37c47bceba5e1afaed80c380f5dea5aea05027f1256a0c5424ff6c21ef1d773ae8906113 29931 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
 Checksums-Sha1:
- 88bbd80cd80bfa03dc70811a674f7253b1afede9 713 grase-conf-dnsmasq_1.6.4.g266210c~bionic.dsc
- 7b3edaaf877cfcdd7b57e977793144ab7490abcd 29922 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
+ 799898bf52acf0cec3abe84393207a6addecbbd0 713 grase-conf-dnsmasq_1.6.4.g266210c~bionic.dsc
+ 422ae9eb77850ca7cca04d2b567f2d53a6875f72 29931 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
+Checksums-Sha256:
+ abbb2f8d883da0c6af461cbe308be882d283169f87f4e5a712bfcffe2d631338 713 grase-conf-dnsmasq_1.6.4.g266210c~bionic.dsc
+ 64514a44aa3b1be8792ea573bd53ee59e33678d75a18dfb93b88e10cd34a3e59 29931 grase-conf-dnsmasq_1.6.4.g266210c~bionic.tar.gz
 
 Package: grase-conf-dnsmasq
 Binary: grase-conf-dnsmasq
@@ -229,18 +229,18 @@ Directory: pool/main/g/grase-conf-dnsmasq
 Files:
  e2117c66e0810ea36b377c57912868d7 713 grase-conf-dnsmasq_1.6.3.g0c7fa4a~bionic.dsc
  5c0573591a061c4b1dd7a972ebe52695 28629 grase-conf-dnsmasq_1.6.3.g0c7fa4a~bionic.tar.gz
-Homepage: http://grasehotspot.org/
+Package-List:
+ grase-conf-dnsmasq deb config extra arch=all
 Checksums-Sha1:
  e25a1edaa173e678683614300548854a383f3481 713 grase-conf-dnsmasq_1.6.3.g0c7fa4a~bionic.dsc
  7ebecff802d4094f5817e7b0e5c3f9412e00794b 28629 grase-conf-dnsmasq_1.6.3.g0c7fa4a~bionic.tar.gz
-Checksums-Sha256:
- d7a5f5a3cec16ffd34dbdfe3cf7577820791b9b0f2bc2ed6658971967a41fd21 713 grase-conf-dnsmasq_1.6.3.g0c7fa4a~bionic.dsc
- 48a3dca450a5f98f0c60bc7fa3066784687879b9aacf41656f6e4e83ac83b5d5 28629 grase-conf-dnsmasq_1.6.3.g0c7fa4a~bionic.tar.gz
-Package-List:
- grase-conf-dnsmasq deb config extra arch=all
+Homepage: http://grasehotspot.org/
 Checksums-Sha512:
  948e0b088ace2e5f8df3c8339448039b1713b58876263dda92367bb8bbe87126c61709926742858a4af443009f39f4a7449f22e91808434f39859ee38c835066 713 grase-conf-dnsmasq_1.6.3.g0c7fa4a~bionic.dsc
  be9f6ed57d21b2d3e631ab5095f0228987ad56a5b6e92f3127afabc60c91614777a65a76a2c978af61b60b9c3e41bfa51623aba9115ec53f26a3cef60899a31a 28629 grase-conf-dnsmasq_1.6.3.g0c7fa4a~bionic.tar.gz
+Checksums-Sha256:
+ d7a5f5a3cec16ffd34dbdfe3cf7577820791b9b0f2bc2ed6658971967a41fd21 713 grase-conf-dnsmasq_1.6.3.g0c7fa4a~bionic.dsc
+ 48a3dca450a5f98f0c60bc7fa3066784687879b9aacf41656f6e4e83ac83b5d5 28629 grase-conf-dnsmasq_1.6.3.g0c7fa4a~bionic.tar.gz
 
 Package: grase-conf-freeradius
 Binary: grase-conf-freeradius
@@ -252,20 +252,20 @@ Standards-Version: 3.8.4
 Format: 3.0 (native)
 Directory: pool/main/g/grase-conf-freeradius
 Files:
- 9455ccb21b73ce656aea3d8ccdeb909a 748 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.dsc
- 9ce97b6dc7ede9e6c0bb252e3a85fe94 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
+ cbc7e7b74cd203bd5a7f59978ea93a10 748 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.dsc
+ a0ad1b5d979efd4d500c3f1f9b7b2434 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
 Checksums-Sha256:
- fcce78bb352c8df1f273fa7f4ec9eb008337df3796a4877ba6f1bd41e1767f1a 748 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.dsc
- 8033d6de91004e0d0f4442234b7a33e2eb98619352e14b78e65fde7666f70f92 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
-Checksums-Sha512:
- 582fa7ccf2c1ea10f1cbb7b7b68982d001e5dfa7aee839b29573533a4ede40bc903f16075e34214ccb18bfb568368b1777cfd5aebfd949173955a0dc4879c437 748 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.dsc
- 70d0b20ce0667fb3d40e3c6b299101f17b9db255dd611ae6b47518e368f584c83a9d73a52632107629fe37f1e5ff62098ba29f3a1f8f582ffbbd765c819c86f9 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
+ 66e069ddec586f0cf1a71748f534e7781d6ec9acb4c53968b8faf7d3a528c080 748 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.dsc
+ 74a981b2419ec6036343a11a1ec2e8ba4b90172cd11cfa5d993267023ab044cb 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
+Checksums-Sha1:
+ 6a3c654ef00b9e0ad3fdf5e777c20c6daee8ca58 748 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.dsc
+ 94d0723947fbdcf9c142463998fc426f24ca390c 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
+Homepage: http://grasehotspot.org/
 Package-List:
  grase-conf-freeradius deb config extra arch=all
-Checksums-Sha1:
- d49b37bc1176dbf40694aa23bd79711259506452 748 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.dsc
- 3b4b4cfd98a483438b1b150dbd19f4b460b422c2 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
-Homepage: http://grasehotspot.org/
+Checksums-Sha512:
+ 4a93406dd54ac1695b5225deaff32e1a49dd13f82aec21663ec1221af5539be1705368417f6f54f41435a0e71eb3f4a36cb3e5a493f3d13aa33abb2d3e92a8e4 748 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.dsc
+ df14ae6d27d1cb8fe559ea5af1744fb7b11c82fe19d5bdd3fe2e4212574af5a600a1c54abee735620e8681a90f0691695aac8f0f15e264242bf76c4d47f4ae1b 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
 
 Package: grase-conf-freeradius
 Binary: grase-conf-freeradius
@@ -279,18 +279,44 @@ Directory: pool/main/g/grase-conf-freeradius
 Files:
  e2efb8fe8356ee2b771e6b223cac76ed 748 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.dsc
  94ed417ff97ff00a847f7755e783e8c8 25904 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.tar.xz
-Checksums-Sha512:
- 986902683f4e7bf9aa146a1e68cc9fb5f323471c1c6dcdc952daea3f66b1ad1f4a9e657f997e5121ae588e72988d5ed72073001a700870e2c90e18f503a250ae 748 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.dsc
- 0e48e03104768e72b6aaac12b9f414e6ca25829fce871af7d9c5fdff6ea73046335fbc56855bd233889836d0d396caf96150154a207283cd67d79c1ceebb138f 25904 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.tar.xz
 Package-List:
  grase-conf-freeradius deb config extra arch=all
-Checksums-Sha256:
- 9ae31fdce15477449078f9f03aa63d8b04663a9f4c081d4a029c6aef436b094c 748 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.dsc
- d12b9a3bbbb0cf330e77c6b6a609dd2f20fd27a4b58b68b797835351cf62c16c 25904 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.tar.xz
-Homepage: http://grasehotspot.org/
 Checksums-Sha1:
  05158bb77ce375f78085a0f25fcc6a63a52e8b3e 748 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.dsc
  4eef04a8cd82e3e288e5f9244c0cc692ec8efe9a 25904 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.tar.xz
+Checksums-Sha512:
+ 986902683f4e7bf9aa146a1e68cc9fb5f323471c1c6dcdc952daea3f66b1ad1f4a9e657f997e5121ae588e72988d5ed72073001a700870e2c90e18f503a250ae 748 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.dsc
+ 0e48e03104768e72b6aaac12b9f414e6ca25829fce871af7d9c5fdff6ea73046335fbc56855bd233889836d0d396caf96150154a207283cd67d79c1ceebb138f 25904 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.tar.xz
+Homepage: http://grasehotspot.org/
+Checksums-Sha256:
+ 9ae31fdce15477449078f9f03aa63d8b04663a9f4c081d4a029c6aef436b094c 748 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.dsc
+ d12b9a3bbbb0cf330e77c6b6a609dd2f20fd27a4b58b68b797835351cf62c16c 25904 grase-conf-freeradius_1.9.4.45.g4c37eee~bionic.tar.xz
+
+Package: grase-www-portal
+Binary: grase-www-portal, grase-www-portal-ext-libs
+Version: 3.8.0.362.gd03c0e14~bionic
+Maintainer: Tim White <tim@grasehotspot.org>
+Build-Depends: cdbs, debhelper (>= 10~), dh-buildinfo, config-package-dev (>= 5.2~)
+Architecture: all
+Standards-Version: 3.9.1
+Format: 3.0 (native)
+Directory: pool/main/g/grase-www-portal
+Files:
+ 2bdf7c133b2edf5bcce73af9a8f21883 806 grase-www-portal_3.8.0.362.gd03c0e14~bionic.dsc
+ 0b59528477daeefa9dff2a2917639ff3 8216356 grase-www-portal_3.8.0.362.gd03c0e14~bionic.tar.xz
+Checksums-Sha256:
+ b492b042c591fd832812d4e6f6965787688ab2f5e90661ca1df85d13f3402931 806 grase-www-portal_3.8.0.362.gd03c0e14~bionic.dsc
+ f04fc7d06c4870ab69c0dc415f5ba5d88892ba76bcd93f91c8265573c0a3d261 8216356 grase-www-portal_3.8.0.362.gd03c0e14~bionic.tar.xz
+Homepage: http://grasehotspot.org/
+Package-List:
+ grase-www-portal deb net extra arch=all
+ grase-www-portal-ext-libs deb net extra arch=all
+Checksums-Sha1:
+ 9dbbc4ae860361b9fc33cf57ca4fbab7b27e022e 806 grase-www-portal_3.8.0.362.gd03c0e14~bionic.dsc
+ 41b60cce5baea059b791f24e5a2bb2acb3c1df25 8216356 grase-www-portal_3.8.0.362.gd03c0e14~bionic.tar.xz
+Checksums-Sha512:
+ afe659b8f89151871c9dc45d36c6f83a3de0384d609394ebac5b9323455da2f5ffe3c400a9feb8b0d0e9972168e033c2a4d62867724e8d5a5c87f55791edcf60 806 grase-www-portal_3.8.0.362.gd03c0e14~bionic.dsc
+ 6533b1142132100411cae601e36f7bd2866458845889a5bd73090df057578923c4564347ff71f80541d13b1cda3dce679060e81507d514f8e7677640c6724c0c 8216356 grase-www-portal_3.8.0.362.gd03c0e14~bionic.tar.xz
 
 Package: grase-www-portal
 Binary: grase-www-portal, grase-www-portal-ext-libs
@@ -304,19 +330,19 @@ Directory: pool/main/g/grase-www-portal
 Files:
  eec3ae0128493b9ade0bfda0b408e59a 806 grase-www-portal_3.8.0.359.g57dc2764~bionic.dsc
  3029e3d64812c108165c4986d69177da 8257928 grase-www-portal_3.8.0.359.g57dc2764~bionic.tar.xz
+Homepage: http://grasehotspot.org/
 Checksums-Sha1:
  eda144827cf31c3ae7a6a73249f478d4f9fde92c 806 grase-www-portal_3.8.0.359.g57dc2764~bionic.dsc
  b96bb28338673ec278b3f8b8b26b4e1a5400d872 8257928 grase-www-portal_3.8.0.359.g57dc2764~bionic.tar.xz
 Package-List:
  grase-www-portal deb net extra arch=all
  grase-www-portal-ext-libs deb net extra arch=all
-Checksums-Sha256:
- c6ccae0ed85e888c00f3857d19627864f5a2620fe28953b5ee508ee7c387602e 806 grase-www-portal_3.8.0.359.g57dc2764~bionic.dsc
- 7e7320d97282b25825238a219e3a1276fbbd5488c19a153d149a860e6a6bda72 8257928 grase-www-portal_3.8.0.359.g57dc2764~bionic.tar.xz
-Homepage: http://grasehotspot.org/
 Checksums-Sha512:
  635a9042ec8cc4ef736440549faedc1187f9a32c6ee840eaf6e864d4068052bfcd2a37b2ec0264cc6fa401a2bb61a63ea3d69f48a68b1173f32eaea181cd3a0b 806 grase-www-portal_3.8.0.359.g57dc2764~bionic.dsc
  4de5dcd6d847960bb30d268aba4d5b18fee476cede5162a7201dc7a0eb1c7a9b4f33a8c6d0d987cf233f6c2f90fd1ed3318d7749e51615e3e4e6c7e057538439 8257928 grase-www-portal_3.8.0.359.g57dc2764~bionic.tar.xz
+Checksums-Sha256:
+ c6ccae0ed85e888c00f3857d19627864f5a2620fe28953b5ee508ee7c387602e 806 grase-www-portal_3.8.0.359.g57dc2764~bionic.dsc
+ 7e7320d97282b25825238a219e3a1276fbbd5488c19a153d149a860e6a6bda72 8257928 grase-www-portal_3.8.0.359.g57dc2764~bionic.tar.xz
 
 Package: grase-www-portal
 Binary: grase-www-portal, grase-www-portal-ext-libs
@@ -330,19 +356,19 @@ Directory: pool/main/g/grase-www-portal
 Files:
  afb1ec8feeafdd89de97f88349aedb47 806 grase-www-portal_3.8.0.358.ge327eefc~bionic.dsc
  b7d3a80dcd83da4eca4470b7f4a4d95e 8258272 grase-www-portal_3.8.0.358.ge327eefc~bionic.tar.xz
+Package-List:
+ grase-www-portal deb net extra arch=all
+ grase-www-portal-ext-libs deb net extra arch=all
 Homepage: http://grasehotspot.org/
+Checksums-Sha1:
+ b78fcb5fff12e50ba8e1f61b67b906d1fd105565 806 grase-www-portal_3.8.0.358.ge327eefc~bionic.dsc
+ ac453b5ef058877675eb1235cfbec31d11fd06a7 8258272 grase-www-portal_3.8.0.358.ge327eefc~bionic.tar.xz
 Checksums-Sha512:
  665db13f73e4b79eb53e81d87b8f8adec64be6bfe8af6570537e7a763ed74d903eec48b45cd881b1ad9a08933d140ceb460e50517af0774ea802bd69dfe222b5 806 grase-www-portal_3.8.0.358.ge327eefc~bionic.dsc
  cba113703ea13bf30e00d850ab82fbfbf436e235db07b1f8f68e6ca936da95be7f43fa4857db339d3adf91c20c4399a5e335fb6810d34a739f4b8706aff3c83c 8258272 grase-www-portal_3.8.0.358.ge327eefc~bionic.tar.xz
 Checksums-Sha256:
  2b9cb9af00579ccd8f54ace47c035ef7b05b1ebcce907308d1534817234aff04 806 grase-www-portal_3.8.0.358.ge327eefc~bionic.dsc
  5ea85aec87efaa3a3cf12c44d51488506c4f674588d1d392daca0c030ab9b776 8258272 grase-www-portal_3.8.0.358.ge327eefc~bionic.tar.xz
-Package-List:
- grase-www-portal deb net extra arch=all
- grase-www-portal-ext-libs deb net extra arch=all
-Checksums-Sha1:
- b78fcb5fff12e50ba8e1f61b67b906d1fd105565 806 grase-www-portal_3.8.0.358.ge327eefc~bionic.dsc
- ac453b5ef058877675eb1235cfbec31d11fd06a7 8258272 grase-www-portal_3.8.0.358.ge327eefc~bionic.tar.xz
 
 Package: grase-www-portal
 Binary: grase-www-portal, grase-www-portal-ext-libs
@@ -357,6 +383,9 @@ Files:
  6529c864a81d7bd452a8ecd851011ef7 806 grase-www-portal_3.8.0.321.g6b8b40fb~bionic.dsc
  50eb878573a05dcc31dbf8b20a6e14b0 9042524 grase-www-portal_3.8.0.321.g6b8b40fb~bionic.tar.xz
 Homepage: http://grasehotspot.org/
+Checksums-Sha512:
+ 598e213569642cc098503de63912dedc8a98f7410ae1dbc4b5fe26689ca969b43088a5f9c9d10ba1746779bd9d6370e067ff8a02e43cb5d83c27f68968bde769 806 grase-www-portal_3.8.0.321.g6b8b40fb~bionic.dsc
+ 7f2f501a2e8fe8eabe116936f06f7ddef83f63014f13f2dafc39cb04e5bda764930e03d94069a342b4171bd525b400d338dfdd657ad44f1946953db291a0df04 9042524 grase-www-portal_3.8.0.321.g6b8b40fb~bionic.tar.xz
 Package-List:
  grase-www-portal deb net extra arch=all
  grase-www-portal-ext-libs deb net extra arch=all
@@ -366,9 +395,6 @@ Checksums-Sha1:
 Checksums-Sha256:
  d967f577cd0e0afd57b79dae4793a4865dc5c228fecb9dd83a56b176d199309c 806 grase-www-portal_3.8.0.321.g6b8b40fb~bionic.dsc
  1e63d0453157dbbe6f89067681d02fd96d85b6b032eead8909a35539669ce4c7 9042524 grase-www-portal_3.8.0.321.g6b8b40fb~bionic.tar.xz
-Checksums-Sha512:
- 598e213569642cc098503de63912dedc8a98f7410ae1dbc4b5fe26689ca969b43088a5f9c9d10ba1746779bd9d6370e067ff8a02e43cb5d83c27f68968bde769 806 grase-www-portal_3.8.0.321.g6b8b40fb~bionic.dsc
- 7f2f501a2e8fe8eabe116936f06f7ddef83f63014f13f2dafc39cb04e5bda764930e03d94069a342b4171bd525b400d338dfdd657ad44f1946953db291a0df04 9042524 grase-www-portal_3.8.0.321.g6b8b40fb~bionic.tar.xz
 
 Package: grase-www-portal
 Binary: grase-www-portal, grase-www-portal-ext-libs
@@ -382,9 +408,7 @@ Directory: pool/main/g/grase-www-portal
 Files:
  7ef61c04b79a50ebebb3beafa98a08ff 806 grase-www-portal_3.8.0.306.g6a0cfa1a~bionic.dsc
  d2d0fa385716d4f20fbfbcbb3b5a7a3d 8742848 grase-www-portal_3.8.0.306.g6a0cfa1a~bionic.tar.xz
-Checksums-Sha1:
- c26db7e5b1c536b04aa29b3f1b8693f2c2f65de1 806 grase-www-portal_3.8.0.306.g6a0cfa1a~bionic.dsc
- a646cc70a95b5fdc70eead2c402def3e25c510af 8742848 grase-www-portal_3.8.0.306.g6a0cfa1a~bionic.tar.xz
+Homepage: http://grasehotspot.org/
 Checksums-Sha256:
  77a522e5d4c30700b38f2b539cfbc2df5761a4d3c865724906d46f24e53d3a27 806 grase-www-portal_3.8.0.306.g6a0cfa1a~bionic.dsc
  949eb8fdca1be83238c9867093f320d4e86528f41fc1ce648aeec5b3d5ef15ad 8742848 grase-www-portal_3.8.0.306.g6a0cfa1a~bionic.tar.xz
@@ -394,7 +418,9 @@ Checksums-Sha512:
 Package-List:
  grase-www-portal deb net extra arch=all
  grase-www-portal-ext-libs deb net extra arch=all
-Homepage: http://grasehotspot.org/
+Checksums-Sha1:
+ c26db7e5b1c536b04aa29b3f1b8693f2c2f65de1 806 grase-www-portal_3.8.0.306.g6a0cfa1a~bionic.dsc
+ a646cc70a95b5fdc70eead2c402def3e25c510af 8742848 grase-www-portal_3.8.0.306.g6a0cfa1a~bionic.tar.xz
 
 Package: grase-www-portal
 Binary: grase-www-portal, grase-www-portal-ext-libs
@@ -408,17 +434,17 @@ Directory: pool/main/g/grase-www-portal
 Files:
  78ff7e05dbefffeb25eef9b5d4fb2a03 806 grase-www-portal_3.8.0.304.gfee7571b~bionic.dsc
  48521bb20d75368547e2be95964747d1 8742392 grase-www-portal_3.8.0.304.gfee7571b~bionic.tar.xz
-Checksums-Sha256:
- 00d9615717201da1bf968ad9c3d571f2780ecad35b433ede66a07a0ae8b348cf 806 grase-www-portal_3.8.0.304.gfee7571b~bionic.dsc
- b14910b162cc783c832feba66b35cf5ac2bf9baa6bbcbcd8d492e7746b1d0f36 8742392 grase-www-portal_3.8.0.304.gfee7571b~bionic.tar.xz
-Homepage: http://grasehotspot.org/
-Checksums-Sha1:
- 9c59dbe7d639182126784703b6f0c8183b36638c 806 grase-www-portal_3.8.0.304.gfee7571b~bionic.dsc
- b36412389262581f6ed5e7ff41060be643f2b82d 8742392 grase-www-portal_3.8.0.304.gfee7571b~bionic.tar.xz
 Checksums-Sha512:
  474cefb2538832267431c8710cddf366473904140e7f836c7b7390c707aee0e2d14f2f9a3dea03d6a4590760d082d7a01eb1ae410dc1ab3388f2eded1a387822 806 grase-www-portal_3.8.0.304.gfee7571b~bionic.dsc
  656401d595380e2beabda7a4f37728c431424cd2b4b28f0b530a1ed33472aff931b5ab4f33b8220217d49755feb01d8cd9118cbd4deacdd33c7e20b6e75a7177 8742392 grase-www-portal_3.8.0.304.gfee7571b~bionic.tar.xz
+Homepage: http://grasehotspot.org/
 Package-List:
  grase-www-portal deb net extra arch=all
  grase-www-portal-ext-libs deb net extra arch=all
+Checksums-Sha1:
+ 9c59dbe7d639182126784703b6f0c8183b36638c 806 grase-www-portal_3.8.0.304.gfee7571b~bionic.dsc
+ b36412389262581f6ed5e7ff41060be643f2b82d 8742392 grase-www-portal_3.8.0.304.gfee7571b~bionic.tar.xz
+Checksums-Sha256:
+ 00d9615717201da1bf968ad9c3d571f2780ecad35b433ede66a07a0ae8b348cf 806 grase-www-portal_3.8.0.304.gfee7571b~bionic.dsc
+ b14910b162cc783c832feba66b35cf5ac2bf9baa6bbcbcd8d492e7746b1d0f36 8742392 grase-www-portal_3.8.0.304.gfee7571b~bionic.tar.xz
 

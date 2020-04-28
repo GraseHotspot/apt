@@ -10,8 +10,8 @@ Build-Depends: cdbs, debhelper (>= 10~), dh-buildinfo, config-package-dev (>= 5.
 Package-List:
  grase-conf-freeradius deb config extra arch=all
 Checksums-Sha1:
- 3b4b4cfd98a483438b1b150dbd19f4b460b422c2 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
+ 94d0723947fbdcf9c142463998fc426f24ca390c 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
 Checksums-Sha256:
- 8033d6de91004e0d0f4442234b7a33e2eb98619352e14b78e65fde7666f70f92 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
+ 74a981b2419ec6036343a11a1ec2e8ba4b90172cd11cfa5d993267023ab044cb 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
 Files:
- 9ce97b6dc7ede9e6c0bb252e3a85fe94 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
+ a0ad1b5d979efd4d500c3f1f9b7b2434 25872 grase-conf-freeradius_1.9.4.47.g9bdf184~bionic.tar.xz
