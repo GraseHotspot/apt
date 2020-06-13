@@ -1,0 +1,1 @@
+rsync -avzP --delete .aptly/public/ siteground-apt.grasehotspot.org:~/www/apt.grasehotspot.org/public_html
