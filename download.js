@@ -8,8 +8,6 @@ var extract = require('extract-zip')
 //console = status.console()
 
 var artifact_urls = [
-  'https://gitlab.com/grase/grase-conf-openvpn/builds/artifacts/master/download?job=trusty-all',
-  'https://gitlab.com/grase/grase-conf-openvpn/builds/artifacts/master/download?job=bionic-all',
   'https://gitlab.com/grase/grase-conf-freeradius/builds/artifacts/master/download?job=bionic-all',
   'https://gitlab.com/grase/grase-conf-apache2/builds/artifacts/symfony4/download?job=bionic-all',
   'https://gitlab.com/grase/grase-conf-dnsmasq/builds/artifacts/symfony4/download?job=bionic-all',
