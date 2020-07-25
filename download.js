@@ -13,7 +13,7 @@ var artifact_urls = [
   'https://gitlab.com/grase/grase-conf-freeradius/builds/artifacts/master/download?job=bionic-all',
   'https://gitlab.com/grase/grase-conf-apache2/builds/artifacts/symfony4/download?job=bionic-all',
   'https://gitlab.com/grase/grase-conf-dnsmasq/builds/artifacts/symfony4/download?job=bionic-all',
-  'https://gitlab.com/grase/grase-www-portal/builds/artifacts/symfony4/download?job=bionic-all',
+  'https://gitlab.com/grase/grase-www-portal/builds/artifacts/master/download?job=bionic-all',
   'https://gitlab.com/grase/coova-chilli/builds/artifacts/grase-1.5.0/download?job=bionic-amd64',
 /*
   'https://gitlab.com/grase/grase-conf-freeradius/builds/artifacts/master/download?job=trusty-all'  ,
