@@ -10,8 +10,8 @@ Build-Depends-Indep: cdbs, debhelper, dh-buildinfo, config-package-dev (>= 5.2~)
 Package-List:
  grase-conf-apache2 deb config extra arch=all
 Checksums-Sha1:
- 825e56ae9cb4ca8d5cf9a90a083d22e853a69170 26826 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
+ 234496e344859583110484acdc56ee98c4be8db5 26849 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
 Checksums-Sha256:
- 17bb1a243bcffd91e048099c29c924cb0a1b5859ec2704027b69b11eff25aab5 26826 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
+ 543747a211788289d9856da0cceff45bd3098dbc2b4ce17e6f15d96a3df90e73 26849 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
 Files:
- 8d93eaf4bdc5e7b1aed12471832ce795 26826 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz
+ 37d51599d7266145fc51a32d31438f66 26849 grase-conf-apache2_1.1.39.gdda6797~bionic.tar.gz

@@ -50,6 +50,31 @@ Section: config
 Installed-Size: 145
 Maintainer: Tim White <tim@grasehotspot.org>
 Architecture: all
+Version: 1.9.4.51.gf0111ed~bionic
+Provides: diverts-etc++freeradius++3.0++dictionary
+Depends: dbconfig-common, dbconfig-mysql | dbconfig-no-thanks, debconf (>= 0.5) | debconf-2.0, libconfig-simple-perl, libxml-simple-perl, libtime-modules-perl
+Pre-Depends: freeradius (>= 3.0.0), freeradius-mysql (>= 3.0.0), coova-chilli (>= 1.4.0), mariadb-client | virtual-mysql-client
+Conflicts: diverts-etc++freeradius++3.0++dictionary
+Filename: pool/main/g/grase-conf-freeradius/grase-conf-freeradius_1.9.4.51.gf0111ed~bionic_all.deb
+Size: 31112
+MD5sum: eee88cc1c56c7e71773207bd67f45a1c
+SHA1: dcc98b789b47edbede3fcf0b245b887383074aa5
+SHA256: a3633485ce5d399f21f20ad752547cb9788a50cb7b5349d77341d47e010ddbb5
+SHA512: bbf9875cc64f1c54b564665a797e98c3ddc42377f7198612872da15b68f290b13a24b12ce4e4c1f8765db882148fedc797cffff4904e9d198d52c57cd2a3c482
+Description: Config files for FreeRADIUS for the GRASE Hotspot System
+ The GRASE Hotspot System binds together CoovaChilli, FreeRADIUS, MySQL,
+ and other systems as well as providing an administrative frontend to managing
+ users and other hotspot related tasks.
+ .
+ This package provides Configuration files for the FreeRADIUS subsystem
+Homepage: http://grasehotspot.org/
+
+Package: grase-conf-freeradius
+Priority: extra
+Section: config
+Installed-Size: 145
+Maintainer: Tim White <tim@grasehotspot.org>
+Architecture: all
 Version: 1.9.4.50.g8f869ce~bionic
 Provides: diverts-etc++freeradius++3.0++dictionary
 Depends: dbconfig-common, dbconfig-mysql | dbconfig-no-thanks, debconf (>= 0.5) | debconf-2.0, libconfig-simple-perl, libxml-simple-perl, libtime-modules-perl
