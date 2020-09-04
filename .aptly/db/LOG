@@ -9463,3 +9463,22 @@
 22:31:17.659851 db@open done T·49.724433ms
 22:31:17.665996 db@close closing
 22:31:17.666278 db@close done T·269.766µs
+=============== Sep 4, 2020 (AWST) ===============
+22:34:46.914251 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:34:46.915441 version@stat F·[1 4] S·7MiB[130KiB 6MiB] Sc·[0.25 0.07]
+22:34:46.915453 db@open opening
+22:34:46.915521 journal@recovery F·1
+22:34:46.915997 journal@recovery recovering @2317
+22:34:46.917498 version@stat F·[1 4] S·7MiB[130KiB 6MiB] Sc·[0.25 0.07]
+22:34:46.951486 db@janitor F·15 G·8
+22:34:46.951512 db@janitor removing manifest-2299
+22:34:46.951554 db@janitor removing journal-2285
+22:34:46.951709 db@janitor removing manifest-2286
+22:34:46.951739 db@janitor removing journal-2298
+22:34:46.951766 db@janitor removing table-2289
+22:34:46.951895 db@janitor removing table-2290
+22:34:46.952019 db@janitor removing table-2287
+22:34:46.952425 db@janitor removing table-2288
+22:34:46.952550 db@open done T·37.088ms
+22:34:53.079996 db@close closing
+22:34:53.080062 db@close done T·65.153µs
